@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Frontix | Web Publisher</title>
-  <link rel="shortcut icon" href="./img/frontix-symbol.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./imgs/frontix-symbol.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/frontix.css" />
 </head>
 <body>
@@ -57,159 +57,55 @@
 <section id="projects" class="section bg-light">
   <div class="l-container">
     <h3 class="section__title">Key Projects</h3>
-    <div class="grid grid--3 gap-lg">
+    <div id="history" class="grid grid--3 gap-lg">
+    </div>
+  </section>
+  
+  <section id="architecture" class="section">
+    <div class="l-container">
+      <h3 class="section__title">Architecture</h3>
       <div class="c-card">
-        <span class="c-badge">운영</span>
-        <h4>한국은행 디지털혁신실 정보시스템</h4>
-        <p>운영 퍼블리싱 & 디자인</p>
-        <p>2024.01.08 ~ 2025.08.31</p>
-        <p>React, HTML, jQuery, javascript, scss, css</p>
-        <p>Windows, git, VSCode</p>
-      </div>
-      <div class="c-card">
-        <h4>FCC콜인프라구축 KMS/WFMS</h4>
-        <p>FCC콜인프라구축 KMS/WFMS 스마트허브 솔루션 개발</p>
-        <p>2021.08.01~2023.10.31</p>
-        <p>HTML, jQuery, javascript, css</p>
-        <p>Windows, Eclipse, VSCode</p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div class="c-card">
-        <h4></h4>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <pre>
+          scss/
+          ├─ abstracts
+          ├─ base
+          ├─ layout
+          ├─ components
+          ├─ pages
+        </pre>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="architecture" class="section">
-  <div class="l-container">
-    <h3 class="section__title">Architecture</h3>
-    <div class="c-card">
-<pre>
-scss/
- ├─ abstracts
- ├─ base
- ├─ layout
- ├─ components
- ├─ pages
-</pre>
+  </section>
+  
+  <footer class="l-footer">
+    <div class="l-container">
+      © 2026 Frontix Portfolio
     </div>
-  </div>
-</section>
-
-<footer class="l-footer">
-  <div class="l-container">
-    © 2026 Frontix Portfolio
-  </div>
-</footer>
-
+  </footer>
+  
+  <script>
+    fetch('./history.json')
+    .then(res => res.json())
+    .then(data => {
+      const list = document.getElementById('history');
+      
+      data.forEach(item => {
+        list.innerHTML += `
+        <li>
+          <h3>${item.title}</h3>
+          <p>${item.desc}</p>
+          </li>
+        <div class="c-card">
+          <span class="c-badge">${item.badge}</span>
+          <h4>${item.company}</h4>
+          <p>${item.position}</p>
+          <p>${item.period}</p>
+          <p>${item.tech}</p>
+          <p>${item.environment}</p>
+        </div>
+          `;
+        });
+      });
+    </script>
 </body>
 </html>
