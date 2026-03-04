@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* =========================
+Header
+========================= */
+.l-header {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 0;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    .l-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+.logo {
+    width: 175px;
+    height: 50px;
+    font-size: 0;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-indent: -999em;
+    background: url('../img/frontix-H.png') no-repeat 50% 0;
+    background-size: auto 100%;
+}
+
+.nav {
+    a {
+        margin-left: 32px;
+        font-size: 15px;
+        color: #555555;
+        transition: color 0.2s ease;
+        &:hover {
+            color: #111111;
+        }
+    }
+}
+
+.l-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
