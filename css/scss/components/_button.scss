@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* =========================
+Buttons
+========================= */
+.c-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 24px;
+	font-size: 14px;
+	border-radius: 8px;
+	border: 1px solid #E5E5E5;
+	background-color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	&:hover {
+		background-color: #f5f5f5;
+	}
+}
+
+
+.c-btn--primary {
+	color: #ffffff;
+	border-color: #2563EB;
+	background: #2563EB;
+	&:hover {
+		background-color: #1E4FD8;
+	}
+}
