@@ -368,21 +368,31 @@ Card Component
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-.c-card .owner {
-  display: inline-block;
+.c-card > div {
   margin-bottom: 12px;
+}
+
+.c-card > div span {
+  display: inline-block;
+}
+
+.c-card > div .owner {
   font-size: 18px;
   font-weight: 600;
 }
 
-.c-card .compnay {
-  display: inline-block;
+.c-card > div .company {
   font-size: 14px;
+  color: #777;
 }
 
 .c-card p {
   font-size: 14px;
   color: #666666;
+}
+
+.c-card p.position {
+  color: #111;
 }
 
 /* =========================

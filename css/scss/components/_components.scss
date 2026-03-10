@@ -43,19 +43,26 @@ Card Component
         transform: translateY(-4px);
         box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     }
-    .owner {
-        display: inline-block;
+    > div {
         margin-bottom: 12px;
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .compnay {
-        display: inline-block;
-        font-size: 14px;
+        span {
+            display: inline-block;
+        }
+        .owner {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .company {
+            font-size: 14px;
+            color: #777;
+        }
     }
     p {
         font-size: 14px;
         color: #666666;
+        &.position {
+            color: #111;
+        }
     }
 }
 
