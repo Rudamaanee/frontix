@@ -1,4 +1,4 @@
-export default [
+[
     {
         "company": "(주)에스아스 (한국은행)",
         "period": "2024.01.08~2025.08.31",
@@ -7,10 +7,10 @@ export default [
         "environment": "Windows, git, VSCode"
     },
     {
-        "company": "㈜베리션트 (KB증권/롯데손해보험/근로복지공단/동양생명)"
-        "period": "2021.08.01~2023.10.31"
-        "position": "FCC콜인프라구축 KMS/WFMS 스마트허브 솔루션 개발"
-        "tech": "HTML, jQuery, javascript, css"
+        "company": "㈜베리션트 (KB증권/롯데손해보험/근로복지공단/동양생명)",
+        "period": "2021.08.01~2023.10.31",
+        "position": "FCC콜인프라구축 KMS/WFMS 스마트허브 솔루션 개발",
+        "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse, VSCode"
     },
     {
@@ -236,5 +236,5 @@ export default [
         "position": "한양학원, 애플튜터외 다수 사이트 작업",
         "tech": "Photoshop, flash, illustrator, indesign, HTML, javascript, css",
         "environment": "Windows, Mac"
-    },
+    }
 ]
