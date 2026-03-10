@@ -373,6 +373,10 @@ Card Component
   margin-bottom: 12px;
 }
 
+.c-card h4 span {
+  font-size: 14px;
+}
+
 .c-card p {
   font-size: 14px;
   color: #666666;
