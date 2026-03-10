@@ -24,107 +24,139 @@ Hero
     gap: 16px;
 }
 
-
-
 $bg:#0f172a;
-$primary:#6366f1;
-$text:#e2e8f0;
 $card:#1e293b;
+$text:#e2e8f0;
+$sub:#94a3b8;
+$primary:#6366f1;
 
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-  font-family:system-ui;
-  background:$bg;
-  color:$text;
+background:$bg;
+color:$text;
+font-family:system-ui;
+line-height:1.6;
 }
 
 .container{
-  width:1100px;
-  margin:auto;
+width:1100px;
+margin:auto;
 }
 
 section{
-  padding:80px 0;
+padding:80px 0;
 }
 
 h3{
-  font-size:28px;
-  margin-bottom:40px;
+font-size:28px;
+margin-bottom:40px;
 }
+
 
 
 .hero{
-  text-align:center;
+text-align:center;
+padding:120px 0;
+}
 
-  h2{
-    font-size:40px;
-  }
+.hero h2{
+font-size:56px;
+}
 
-  p{
-    margin-top:10px;
-  }
+.role{
+font-size:24px;
+color:$sub;
+margin-top:10px;
+}
 
-  .hero-company{
-    margin-top:20px;
-    color:#94a3b8;
-  }
+.exp{
+margin-top:10px;
+}
+
+.stack{
+margin-top:20px;
+color:$sub;
 }
 
 
-.skill-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:30px;
+
+.company-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
 }
 
-.skill-box{
-  background:$card;
-  padding:30px;
-  border-radius:10px;
-}
-
-.skill-box ul{
-  list-style:none;
-  margin-top:10px;
-}
-
-.skill-box li{
-  padding:4px 0;
+.company-grid div{
+background:$card;
+padding:30px;
+text-align:center;
+border-radius:10px;
 }
 
 
-.card-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:25px;
+
+.project-list{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
 }
 
-.c-card{
-  background:$card;
-  padding:25px;
-  border-radius:10px;
-  transition:.2s;
+.project{
+background:$card;
+padding:30px;
+border-radius:10px;
 }
 
-.c-card:hover{
-  transform:translateY(-5px);
+.project h4{
+font-size:22px;
 }
 
-.c-badge{
-  display:inline-block;
-  background:$primary;
-  padding:3px 10px;
-  font-size:12px;
-  border-radius:5px;
-  margin-bottom:10px;
+
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
 }
+
+.skills-grid div{
+background:$card;
+padding:30px;
+border-radius:10px;
+}
+
+.skills-grid ul{
+margin-top:10px;
+list-style:none;
+}
+
+.skills-grid li{
+padding:4px 0;
+}
+
+
+
+.timeline{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.timeline-item{
+background:$card;
+padding:20px;
+border-radius:10px;
+}
+
+
 
 .footer{
-  text-align:center;
-  padding:40px;
+padding:40px 0;
+text-align:center;
+color:$sub;
 }

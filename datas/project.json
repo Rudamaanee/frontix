@@ -1,29 +1,29 @@
 [
-    {
-    "company":"한국은행",
-    "project":"디지털혁신실 정보시스템",
-    "period":"2024-2025",
-    "tech":"React / SCSS / Javascript"
-    },
+{
+"company":"한국은행",
+"project":"디지털혁신실 정보시스템 운영",
+"period":"2024-2025",
+"tech":"React / SCSS / Javascript"
+},
 
-    {
-    "company":"KB증권",
-    "project":"FCC 콜 인프라 구축",
-    "period":"2021-2023",
-    "tech":"HTML / CSS / jQuery"
-    },
+{
+"company":"KB증권",
+"project":"FCC 콜 인프라 구축",
+"period":"2021-2023",
+"tech":"HTML / CSS / jQuery"
+},
 
-    {
-    "company":"LG U+",
-    "project":"요금 시뮬레이터 구축",
-    "period":"2021",
-    "tech":"WebSquare"
-    },
+{
+"company":"LG U+",
+"project":"요금 시뮬레이터 구축",
+"period":"2021",
+"tech":"WebSquare"
+},
 
-    {
-    "company":"스타벅스",
-    "project":"Smart ERP 구축",
-    "period":"2015-2016",
-    "tech":"Nexacro"
-    }
+{
+"company":"스타벅스",
+"project":"Smart ERP 구축",
+"period":"2015-2016",
+"tech":"Nexacro"
+}
 ]
