@@ -368,13 +368,16 @@ Card Component
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-.c-card h4 {
+.c-card .owner {
+  display: inline-block;
   font-size: 18px;
   margin-bottom: 12px;
 }
 
-.c-card h4 span {
+.c-card .compnay {
+  display: inline-block;
   font-size: 14px;
+  font-weight: normal;
 }
 
 .c-card p {

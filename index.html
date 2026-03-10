@@ -120,7 +120,10 @@
           const html = `
             <div class="c-card">
               ${item.badge ? `<span class="c-badge">${item.badge}</span>` : ''}
-              ${item.owner ? `<h4>${item.owner} <span>${item.compnay}</span></h4>` : ''}
+              <div>
+                ${item.owner ? `<span class="owner">${item.owner}</span>` : ''}
+                ${item.compnay ? `<span class="compnay">${item.compnay}</span>` : ''}
+              </div>
               ${item.position ? `<p>${item.position}</p>` : ''}
               ${item.period ? `<p>${item.period}</p>` : ''}
               ${item.tech ? `<p>${item.tech}</p>` : ''}

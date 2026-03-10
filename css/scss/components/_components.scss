@@ -43,12 +43,15 @@ Card Component
         transform: translateY(-4px);
         box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     }
-    h4 {
+    .owner {
+        display: inline-block;
         font-size: 18px;
         margin-bottom: 12px;
-        span {
-            font-size: 14px
-        }
+    }
+    .compnay {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: normal;
     }
     p {
         font-size: 14px;
