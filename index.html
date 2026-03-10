@@ -84,30 +84,56 @@
   </footer>
   
   <script>
-    fetch('./datas/history.json')
-    .then(res => res.json())
-    .then(data => {
-      const list = document.getElementById('history');
+    // fetch('./datas/history.json')
+    // .then(res => res.json())
+    // .then(data => {
+    //   const list = document.getElementById('history');
       
-      data.forEach(item => {
-        list.innerHTML += `
-        <div class="c-card">
-          <span class="c-badge">${item.badge}</span>
-          <h4>${item.company}</h4>
-          <p>${item.position}</p>
-          <p>${item.period}</p>
-          <p>${item.tech}</p>
-          <p>${item.environment}</p>
-        </div>
+    //   data.forEach(item => {
+    //     list.innerHTML += `
+    //     <div class="c-card">
+    //       <span class="c-badge">${item.badge}</span>
+    //       <h4>${item.company}</h4>
+    //       <p>${item.position}</p>
+    //       <p>${item.period}</p>
+    //       <p>${item.tech}</p>
+    //       <p>${item.environment}</p>
+    //     </div>
+    //       `;
+    //     });
+    //   });
+    //   if (data.badge) {
+    //     const span = document.createElement('span');
+    //     span.className = 'c-badge';
+    //     span.textContent = data.badge;
+    //     document.body.appendChild(span);
+    //   }
+
+    fetch('./datas/history.json')
+      .then(res => res.json())
+      .then(data => {
+
+        const list = document.getElementById('history');
+
+        data.forEach(item => {
+
+          const html = `
+            <div class="c-card">
+              ${item.badge ? `<span class="c-badge">${item.badge}</span>` : ''}
+              ${item.company ? `<h4>${item.company}</h4>` : ''}
+              ${item.position ? `<p>${item.position}</p>` : ''}
+              ${item.period ? `<p>${item.period}</p>` : ''}
+              ${item.tech ? `<p>${item.tech}</p>` : ''}
+              ${item.environment ? `<p>${item.environment}</p>` : ''}
+            </div>
           `;
+
+          list.insertAdjacentHTML('beforeend', html);
+
         });
-      });
-      if (data.badge) {
-        const div = document.createElement('span');
-        div.className = 'c-badge';
-        div.textContent = data.badge;
-        document.body.appendChild(span);
-      }
+
+      })
+      .catch(err => console.error(err));
     </script>
 </body>
 </html>
