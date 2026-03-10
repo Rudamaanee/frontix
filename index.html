@@ -102,11 +102,11 @@
           `;
         });
       });
-      if (data.title) {
-        const div = document.createElement('div');
+      if (data.badge) {
+        const div = document.createElement('span');
         div.className = 'c-badge';
-        div.textContent = data.title;
-        document.body.appendChild(div);
+        div.textContent = data.badge;
+        document.body.appendChild(span);
       }
     </script>
 </body>
