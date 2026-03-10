@@ -370,14 +370,14 @@ Card Component
 
 .c-card .owner {
   display: inline-block;
-  font-size: 18px;
   margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .c-card .compnay {
   display: inline-block;
   font-size: 14px;
-  font-weight: normal;
 }
 
 .c-card p {
