@@ -1,169 +1,104 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Frontix Portfolio</title>
-
-<link rel="shortcut icon" href="./imgs/frontix-symbol.png" type="image/x-icon">
-<link rel="stylesheet" href="./css/frontix.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontix Portfolio</title>
+    <link rel="shortcut icon" href="./imgs/frontix-symbol.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/frontix.css" />
 </head>
 
 <body>
 
-
 <header class="header">
-
-<div class="container">
-
-<h1 class="logo">Frontix</h1>
-
-</div>
-
+    <div class="container">
+        <h1 class="logo">Frontix</h1>
+    </div>
 </header>
 
-
-
 <section class="hero">
-
-<div class="container">
-
-<h2>Eunmi Yoon</h2>
-
-<p class="role">Senior Web Publisher</p>
-
-<p class="exp">20+ Years Experience</p>
-
-<div class="stack">
-HTML · SCSS · Javascript · React · WebSquare
-</div>
-
-</div>
-
+    <div class="container">
+        <h2>Eunmi Yoon</h2>
+        <p class="role">Senior Web Publisher</p>
+        <p class="exp">20+ Years Experience</p>
+        <div class="stack">HTML · SCSS · Javascript · React · WebSquare</div>
+    </div>
 </section>
 
 
 
 <section class="companies">
-
-<div class="container">
-
-<h3>Enterprise Experience</h3>
-
-<div class="company-grid">
-
-<div>한국은행</div>
-<div>KB증권</div>
-<div>LG U+</div>
-<div>롯데</div>
-<div>스타벅스</div>
-<div>한화생명</div>
-
-</div>
-
-</div>
-
+    <div class="container">
+        <h3><span>Enterprise Experience</span></h3>
+        <div class="company-grid grid">
+            <div class="logo bok">한국은행</div>
+            <div class="logo kbsec">KB증권</div>
+            <div class="logo uplus">LG U+</div>
+            <div class="logo ellotte">엘롯데</div>
+            <div class="logo starbucks">스타벅스</div>
+            <div class="logo hanwhalife">한화생명</div>
+            <div class="logo hyundaicard">현대카드</div>
+            <div class="logo sam">교보문고 sam</div>
+            <div class="logo ksd">한국예탁결제원</div>
+        </div>
+    </div>
 </section>
-
-
 
 <section class="projects">
-
-<div class="container">
-
-<h3>Major Projects</h3>
-
-<div id="projects" class="project-list"></div>
-
-</div>
-
+    <div class="container">
+        <h3><span>Major Projects</span></h3>
+        <div id="projects" class="project-list grid"></div>
+    </div>
 </section>
-
-
 
 <section class="skills">
-
-<div class="container">
-
-<h3>Skills</h3>
-
-<div class="skills-grid">
-
-<div>
-
-<h4>Frontend</h4>
-
-<ul>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>SCSS</li>
-<li>Javascript</li>
-<li>jQuery</li>
-</ul>
-
-</div>
-
-<div>
-
-<h4>Framework</h4>
-
-<ul>
-<li>React</li>
-<li>Vue</li>
-</ul>
-
-</div>
-
-<div>
-
-<h4>Enterprise UI</h4>
-
-<ul>
-<li>WebSquare</li>
-<li>Nexacro</li>
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
+    <div class="container">
+        <h3><span>Skills</span></h3>
+        <div class="skills-grid grid">
+            <div>
+                <h4>Frontend</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>SCSS</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Framework</h4>
+                <ul>
+                    <li>React</li>
+                    <li>Vue</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Enterprise UI</h4>
+                <ul>
+                    <li>WebSquare</li>
+                    <li>Nexacro</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
-
-
 
 <section class="career">
-
-<div class="container">
-
-<h3>Career Timeline</h3>
-
-<div id="history" class="timeline"></div>
-
-</div>
-
+    <div class="container">
+        <h3><span>Career Timeline</span></h3>
+        <!-- <div id="timeline" class="timeline "></div> -->
+        <swiper-container id="timeline" class="mySwiper timeline" scrollbar-hide="true" auto-height="true" space-between="50" slides-per-view="auto">
+        </swiper-container>
+    </div>
 </section>
 
-
-
 <footer class="footer">
-
-<div class="container">
-
-<p>© 2026 Frontix Portfolio</p>
-
-</div>
-
+    <div class="container">
+        <p>© 2026 Frontix Portfolio</p>
+    </div>
 </footer>
 
-
 <script src="./js/main.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
 </body>
-
 </html>

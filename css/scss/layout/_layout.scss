@@ -3,23 +3,22 @@
 /* =========================
 Layout
 ========================= */
+.container {
+    width: 1200px;
+    margin: auto;
+}
 
 
 /* =========================
 Section
 ========================= */
-.section {
+section {
 	padding: 120px 0;
+    &:nth-child(2n) {
+        background-color: $secondBg;
+    }
 }
 
-.section__title {
-	margin-bottom: 48px;
-	font-size: 28px;
-}
-
-.bg-light {
-	background: #FAFAFA;
-}
 
 
 /* =========================

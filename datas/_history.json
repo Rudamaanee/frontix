@@ -1,268 +1,268 @@
 [
     {
-        "owner": "한국은행",
+        "client": "한국은행",
         "company": "(주)에스아스",
         "period": "2024.01.08~2025.08.31",
-        "position": "한국은행 디지털혁신실 정보시스템 운영 퍼블리싱 & 디자인",
+        "project": "한국은행 디지털혁신실 정보시스템 운영 퍼블리싱 & 디자인",
         "tech": "React, html, jQuery, javascript, scss",
         "environment": "Windows, git, VSCode"
     },
     {
-        "owner": "KB증권/롯데손해보험/근로복지공단/동양생명",
+        "client": "KB증권/롯데손해보험/근로복지공단/동양생명",
         "company": "㈜베리션트",
         "period": "2021.08.01~2023.10.31",
-        "position": "FCC콜인프라구축 KMS/WFMS 스마트허브 솔루션 개발",
+        "project": "FCC콜인프라구축 KMS/WFMS 스마트허브 솔루션 개발",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse, VSCode"
     },
     {
-        "owner": "신한생명",
+        "client": "신한생명",
         "company": "카라스페이스",
         "period": "2021.04.01~2021.07.31",
-        "position": "신한생명 차세대 듀얼 콜센터 구축 프로젝트",
+        "project": "신한생명 차세대 듀얼 콜센터 구축 프로젝트",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse, VSCode"
     },
     {
-        "owner": "LG U+",
+        "client": "LG U+",
         "company": "㈜에버커스",
         "period": "2021.01.29~2021.03.28",
-        "position": "U+ 통합요금시뮬레이터 구축",
+        "project": "U+ 통합요금시뮬레이터 구축",
         "tech": "웹스퀘어, html, css",
         "environment": "Windows, git, Eclipse"
     },
     {
-        "owner": "한화시스템즈",
+        "client": "한화시스템즈",
         "company": "㈜에이디앤스타일",
         "period": "2020.07.08~2020.12.31",
-        "position": "한화생명 업무공유시스템",
+        "project": "한화생명 업무공유시스템",
         "tech": "VueJs, html, css",
         "environment": "Windows, git"
     },
     {
-        "owner": "주식회사 몬스빌",
+        "client": "주식회사 몬스빌",
         "period": "2020.04.01~2020.05.31",
-        "position": "내부업무시스템 퍼블리싱",
+        "project": "내부업무시스템 퍼블리싱",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, git"
     },
     {
-        "owner": "KT",
+        "client": "KT",
         "company": "카라스페이스",
         "period": "2019.12.01~2020.02.28",
-        "position": "KT Live AD 프로젝트 퍼블리싱",
+        "project": "KT Live AD 프로젝트 퍼블리싱",
         "tech": "HTML, javascript, jQuery, css",
         "environment": "Windows, SublimeText3"
     },
     {
-        "owner": "롯데e-커머스",
+        "client": "롯데e-커머스",
         "company": "메디네트웍스㈜",
         "period": "2019.10.16~2020.04.28",
-        "position": "롯데e-커머스 통합앱 챗봇 구축 프로젝트",
+        "project": "롯데e-커머스 통합앱 챗봇 구축 프로젝트",
         "tech": "HTML, css",
         "environment": "Windows, cogInsight, SublimeText3"
     },
     {
-        "owner": "한국야쿠르트",
+        "client": "한국야쿠르트",
         "company": "㈜비티소프트",
         "period": "2019.06.03~2019.09.16",
-        "position": "한국야쿠르트 모바일웹 리뉴얼",
+        "project": "한국야쿠르트 모바일웹 리뉴얼",
         "tech": "HTML, javascript, JQuery, css",
         "environment": "Windows, Eclipse, SublimeText3"
     },
     {
-        "owner": "롯데e-커머스",
+        "client": "롯데e-커머스",
         "company": "㈜시스포유아이앤씨",
         "period": "2018.11.01~2019.04.30",
-        "position": "FO/BO New 엘롯데 서비스 운영",
+        "project": "FO/BO New 엘롯데 서비스 운영",
         "tech": "HTML, javascript, JQuery, css, 웹스퀘어",
         "environment": "Windows, Eclipse, SublimeText3"
     },
     {
-        "owner": "㈜디딤유",
+        "client": "㈜디딤유",
         "period": "2018.08.01~2018.08.30",
-        "position": "솔루선 구축",
+        "project": "솔루선 구축",
         "tech" : "HTML, javascript, JQuery, css",
         "environment" : "Windows, Eclipse, SublimeText3"
     },
     {
-        "owner": "롯데미래전략연구소(주)",
+        "client": "롯데미래전략연구소(주)",
         "company": "㈜타란UXD",
         "period": "2017.10.23~2018.10.31",
-        "position": "통합 BO 플랫폼 구축 프로젝트",
+        "project": "통합 BO 플랫폼 구축 프로젝트",
         "tech": "웹스퀘어",
         "environment" : "Windows, Eclipse, SublimeText3"
     },
     {
-        "owner": "신세계 법인영업",
+        "client": "신세계 법인영업",
         "company": "(주)유비젠에스엔티 / ㈜돋움",
         "period": "2017.06.15~2017.09.14",
-        "position": "신세계폐쇄몰 리뉴얼",
+        "project": "신세계폐쇄몰 리뉴얼",
         "tech": "HTML, javascript, JQuery, css",
         "environment": "Windows, Eclipse, SublimeText3"
     },
     {
-        "owner": "㈜다음엔소프트",
+        "client": "㈜다음엔소프트",
         "period": "2017.03.10~2017.04.9",
-        "position": "HTML 콘텐츠 개발",
+        "project": "HTML 콘텐츠 개발",
         "tech": "HTML, javascript, JQuery, css,",
         "environment": "Windows, Eclipse, SublimeText3"
     },
     {
-        "owner": "한솔교육",
+        "client": "한솔교육",
         "company": "㈜넥스트티",
         "period": "2016.11.10~2017.01.12",
-        "position": "한솔교육 사이트 반응형 리뉴얼",
+        "project": "한솔교육 사이트 반응형 리뉴얼",
         "tech": "HTML, javascript, JQuery, css",
         "environment": "Windows, SublimeText3"
     },
     {
-        "owner": "ktnet",
+        "client": "ktnet",
         "company": "㈜웹소울랩",
         "period": "2016.07.01~2016.10.31",
-        "position": "uTreadHub 통합포탈(국문, 영문, 일문, 중문), 요건확인, 전자문서보관소, 글로벌 포털 퍼블리싱",
+        "project": "uTreadHub 통합포탈(국문, 영문, 일문, 중문), 요건확인, 전자문서보관소, 글로벌 포털 퍼블리싱",
         "tech": "HTML, javascript, JQuery",
         "environment": "Windows, SublimeText3"
     },
     {
-        "owner": "현대오일뱅크 Xteer, 한솔 두을장학재단, BNK 캐파탈",
+        "client": "현대오일뱅크 Xteer, 한솔 두을장학재단, BNK 캐파탈",
         "company": "㈜아이스큐브",
         "period": "2016.05.25~2016.6.30",
-        "position": "현대오일뱅크 Xteer 모바일, 웹 / 한솔 두을장학재단 모바일, 웹 / BNK 캐피탈 모바일 리뉴얼 ",
+        "project": "현대오일뱅크 Xteer 모바일, 웹 / 한솔 두을장학재단 모바일, 웹 / BNK 캐피탈 모바일 리뉴얼 ",
         "tech": "HTML, jQuery, javascript",
         "environment": "Windows, Editplus"
     },
     {
-        "owner": "현대카드",
+        "client": "현대카드",
         "company": "㈜플레닛텍",
         "period": "2016.02.01~2016.04.30",
-        "position": "현대카드 웹, 모바일 리뉴얼",
+        "project": "현대카드 웹, 모바일 리뉴얼",
         "tech": "HTML, jQuery, javascript",
         "environment": "Windows, Eclipse, Editplus"
     },
     {
-        "owner": "스타벅스커피코리아",
+        "client": "스타벅스커피코리아",
         "company": "㈜님스넷 / 다임정보 / 아이엔테크㈜",
         "period": "2015.05.19~2016.01.31",
-        "position": "스타벅스커피코리아 Smart ERP 웹, 모바일 구축",
+        "project": "스타벅스커피코리아 Smart ERP 웹, 모바일 구축",
         "tech": "넥사크로",
         "environment": "Windows, Eclipse, Editplus"
     },
     {
-        "owner": "㈜님스넷",
+        "client": "㈜님스넷",
         "period": "2015.02.01~2015.05.16",
-        "position": "내부프로젝트 Snet 가이드 작업, 독일통일 아카이브 구축",
+        "project": "내부프로젝트 Snet 가이드 작업, 독일통일 아카이브 구축",
         "tech": "HTML, jQuery, javascript, css, CMS",
         "environment": "Windows, Eclipse, Editplus"
     },
     {
-        "owner": "마사회",
+        "client": "마사회",
         "company": "비에이비오커뮤니케이션㈜ / 메이드웹",
         "period": "2014.11.18~2014.12.17",
-        "position": "마사회 PC 웹사이트 모바일 최적화 리뉴얼 퍼블리싱",
+        "project": "마사회 PC 웹사이트 모바일 최적화 리뉴얼 퍼블리싱",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse"
     },
     {
-        "owner": "금융결제원",
+        "client": "금융결제원",
         "company": "비에이비오커뮤니케이션㈜ / 메이드웹",
         "period": "2014.10.06~2014.11.05",
-        "position": "금융결제원 운영 CMS 개선 웹, 모바일 퍼블리싱",
+        "project": "금융결제원 운영 CMS 개선 웹, 모바일 퍼블리싱",
         "tech": "HTML, jQuery, javascript, css, CMS",
         "environment": "Windows, Editplus"
     },
     {
-        "owner": "KTH",
+        "client": "KTH",
         "company": "JYES",
         "period": "2014.08.04~2014.10.27",
-        "position": "올레 tv 모바일 청약 V4 퍼블리싱",
+        "project": "올레 tv 모바일 청약 V4 퍼블리싱",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Editplus"
     },
     {
-        "owner": "Samsung",
+        "client": "Samsung",
         "company": "하이코딩",
         "period": "2014.07.14~2014.08.29",
-        "position": "Samsung Saas B2B Biz Solution 구축",
+        "project": "Samsung Saas B2B Biz Solution 구축",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Editplus"
     },
     {
-        "owner": "KTH",
+        "client": "KTH",
         "company": "JYES",
         "period": "2014.04.07~2014.06.30",
-        "position": "올레 tv 모바일 청약 V34 퍼블리싱",
+        "project": "올레 tv 모바일 청약 V34 퍼블리싱",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse"
     },
     {
-        "owner": "교보문고",
+        "client": "교보문고",
         "company": "아이디티정보기술㈜ FEDLAB / 인픽스",
         "period": "2013.11.14~2013.12.31",
-        "position": "교보문고 SAM 모바일 고도화 작업",
+        "project": "교보문고 SAM 모바일 고도화 작업",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse"
     },
     {
-        "owner": "LGU+",
+        "client": "LGU+",
         "company": "아이디티정보기술㈜ FEDLAB / 미디어로그",
         "period": "2013.09.01~2013.10.31",
-        "position": "LGU+ 모바일 고도화 작업 PL",
+        "project": "LGU+ 모바일 고도화 작업 PL",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse"
     },
     {
-        "owner": "나이스신용평가정보",
+        "client": "나이스신용평가정보",
         "company": "Masstige",
         "period": "2013.04.01~2013.05.31",
-        "position": "나이스 신용평가정보 웹표준화 및 접근성 작업",
+        "project": "나이스 신용평가정보 웹표준화 및 접근성 작업",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Editplus"
     },
     {
-        "owner": "제일모직 갤럭시",
+        "client": "제일모직 갤럭시",
         "company": "프리웹클럽",
         "period": "2013.03.18~2013.03.31",
-        "position": "제일모직 갤럭시 웹표준화 및 접근성 작업",
+        "project": "제일모직 갤럭시 웹표준화 및 접근성 작업",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse, Editplus"
     },
     {
-        "owner": "KBS",
+        "client": "KBS",
         "company": "무한도전",
         "period": "2013.02.13~2013.03.03",
-        "position": "KBS 모바일 메인/TV 웹표준화 및 접근성 작업",
+        "project": "KBS 모바일 메인/TV 웹표준화 및 접근성 작업",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse, Editplus"
     },
     {
-        "owner": "한국예탁결제원",
+        "client": "한국예탁결제원",
         "company": "낯선웹 주시회사 ",
         "period": "2012.09.10~2013.02.09",
-        "position": "한국예탁결제원 증권포털 웹, 모바일 리뉴얼",
+        "project": "한국예탁결제원 증권포털 웹, 모바일 리뉴얼",
         "tech": "웹스퀘어",
         "environment": "Windows, 웹스퀘어"
     },
     {
-        "owner": "LG",
+        "client": "LG",
         "company": "모티인터내셔널",
         "period": "2012.06.18~2012.09.04",
-        "position": "LG Global Site 리뉴얼",
+        "project": "LG Global Site 리뉴얼",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse, Editplus"
     },
     {
-        "owner": "엠원소프트",
+        "client": "엠원소프트",
         "period": "2012.02.20~2012.03.30",
-        "position": "학원관리시스템 및 홈페이지 디자인 개발",
+        "project": "학원관리시스템 및 홈페이지 디자인 개발",
         "tech": "HTML, jQuery, javascript, css",
         "environment": "Windows, Eclipse"
     },
     {
-        "owner": "한양학원",
+        "client": "한양학원",
         "company": "매경IC",
         "period": "2005.11.~2006.06.",
-        "position": "한양학원, 애플튜터외 다수 사이트 작업",
+        "project": "한양학원, 애플튜터외 다수 사이트 작업",
         "tech": "Photoshop, flash, illustrator, indesign, HTML, javascript, css",
         "environment": "Windows, Mac"
     }
