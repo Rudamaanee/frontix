@@ -449,19 +449,6 @@ h3 span {
   color: #94a3b8;
 }
 
-.company-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.company-grid div {
-  padding: 30px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -469,13 +456,30 @@ h3 span {
 }
 
 .project-wrap {
+  position: relative;
   padding: 30px;
+  padding-left: 160px;
   background-color: #fff;
   border-radius: 10px;
 }
 
-.project-wrap h4 {
-  font-size: 22px;
+.project-wrap .logo {
+  position: absolute;
+  left: 30px;
+  top: calc(50% - 18px);
+  width: 100px;
+  min-height: 36px;
+  background-size: contain !important;
+}
+
+.project-wrap .project {
+  font-size: 16px;
+  color: #111;
+}
+
+.project-wrap div, .project-wrap p {
+  font-size: 14px;
+  color: #777;
 }
 
 .skills-grid {
@@ -502,8 +506,23 @@ h3 span {
 /* =========================
 company logo
 ========================= */
-.company-grid > div {
-  padding: 50px 0;
+.company-grid {
+  height: 140px;
+}
+
+.company-grid div {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.company-grid .logo {
+  height: 100px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* =========================

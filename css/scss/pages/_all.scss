@@ -39,18 +39,6 @@ h3 {
     color: $sub;
 }
 
-.company-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    div {
-        padding: 30px;
-        text-align: center;
-        background-color: $card;
-        border-radius: 10px;
-    }
-}
-
 .project-list {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -58,11 +46,28 @@ h3 {
 }
 
 .project-wrap {
+    position: relative;
     padding: 30px;
+    padding-left: 160px;
     background-color: $card;
     border-radius: 10px;
-    h4 {
-        font-size: 22px;
+    .logo {
+        position: absolute;
+        left: 30px;
+        top: calc(50% - 18px);
+        width: 100px;
+        min-height: 36px;
+        background-size: contain !important;
+    }
+    .project {
+        font-size: 16px;
+        color: #111;
+    }
+    div, p {
+        font-size: 14px;
+        color: #777
+    }
+    .period {
     }
 }
 
@@ -88,8 +93,19 @@ h3 {
 company logo
 ========================= */
 .company-grid {
-    > div {
-        padding: 50px 0;
+    height: 140px;
+    div {
+        padding: 30px;
+        text-align: center;
+        background-color: $card;
+        border-radius: 10px;
+    }
+    .logo {
+        height: 100px;
+        margin: 20px 0;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 }
 

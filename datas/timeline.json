@@ -17,6 +17,7 @@
         "year": "2025 ~ 2024",
         "items": [
             {
+                "major": true,
                 "client": "한국은행",
                 "class": "bok",
                 "company": "(주)에스아스",
@@ -31,6 +32,7 @@
         "year": "2023 ~ 2021",
         "items": [
             {
+                "major": true,
                 "client": "KB증권/롯데손해보험/근로복지공단/동양생명",
                 "class": "kbsec",
                 "company": "㈜베리션트",
@@ -54,6 +56,7 @@
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
+                "major": true,
                 "client": "LG U+",
                 "class": "uplus",
                 "company": "㈜에버커스",
@@ -68,6 +71,7 @@
         "year": "2020",
         "items": [
             {
+                "major": true,
                 "client": "한화시스템즈",
                 "class": "hanwhalife",
                 "company": "㈜에이디앤스타일",
@@ -99,6 +103,7 @@
                 "tech": "HTML, javascript, jQuery, css"
             },
             {
+                "major": true,
                 "client": "롯데e-커머스",
                 "class": "lotteon",
                 "company": "메디네트웍스㈜",
@@ -113,6 +118,7 @@
         "year": "2019",
         "items": [
             {
+                "major": true,
                 "client": "한국야쿠르트",
                 "class": "hy",
                 "company": "㈜비티소프트",
@@ -127,6 +133,7 @@
         "year": "2019 ~ 2018",
         "items": [
             {
+                "major": true,
                 "client": "롯데e-커머스",
                 "class": "ellotte",
                 "company": "시스포유아이앤씨",
@@ -154,6 +161,7 @@
         "year": "2018 ~ 2017",
         "items": [
             {
+                "major": true,
                 "client": "롯데미래전략연구소(주)",
                 "class": "ellotte",
                 "company": "㈜타란UXD",
@@ -222,6 +230,7 @@
                 "tech": "HTML, jQuery, javascript"
             },
             {
+                "major": true,
                 "client": "현대카드",
                 "class": "hyundaicard",
                 "company": "㈜플레닛텍",
@@ -236,6 +245,7 @@
         "year": "2016 ~ 2015",
         "items": [
             {
+                "major": true,
                 "client": "스타벅스커피코리아",
                 "class": "starbucks",
                 "company": "㈜님스넷 / 다임정보 / 아이엔테크㈜",
@@ -313,6 +323,7 @@
         "year": "2013",
         "items": [
             {
+                "major": true,
                 "client": "교보문고",
                 "class": "sam",
                 "company": "아이디티정보기술㈜ FEDLAB / 인픽스",
@@ -322,6 +333,7 @@
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
+                "major": true,
                 "client": "LGU+",
                 "class": "uplus",
                 "company": "아이디티정보기술㈜ FEDLAB / 미디어로그",
@@ -363,6 +375,7 @@
         "year": "2013 ~ 2012",
         "items": [
             {
+                "major": true,
                 "client": "한국예탁결제원",
                 "class": "ksd",
                 "company": "낯선웹 주시회사 ",
