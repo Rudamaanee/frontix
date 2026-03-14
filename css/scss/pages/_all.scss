@@ -104,78 +104,78 @@ logo
     background-size: auto 30px;
 }
 .bok {
-    background-image: url('../../../imgs/company/bok.png');
+    background-image: url($G-path-img + 'company/bok.png');
     background-size: auto 36px;
 }
 .kbsec {
-    background-image: url('../../../imgs/company/kbsec.png');
+    background-image: url($G-path-img + 'company/kbsec.png');
 }
 .uplus {
-    background-image: url('../../../imgs/company/uplus.png');
+    background-image: url($G-path-img + 'company/uplus.png');
 }
 .ellotte {
-    background-image: url('../../../imgs/company/ellotte.png');
+    background-image: url($G-path-img + 'company/ellotte.png');
 }
 .starbucks {
-    background-image: url('../../../imgs/company/starbucks.png');
+    background-image: url($G-path-img + 'company/starbucks.png');
     background-size: auto 50px;
 }
 .hanwhalife {
-    background-image: url('../../../imgs/company/hanwhalife.jpg');
+    background-image: url($G-path-img + 'company/hanwhalife.jpg');
     background-size: auto 36px;
 }
 .hyundaicard {
-    background-image: url('../../../imgs/company/hyundaicard.svg');
+    background-image: url($G-path-img + 'company/hyundaicard.svg');
 }
 .sam {
-    background-image: url('../../../imgs/company/sam.svg');
+    background-image: url($G-path-img + 'company/sam.svg');
     background-size: auto 36px;
 }
 .ksd {
-    background-image: url('../../../imgs/company/ksd.gif');
+    background-image: url($G-path-img + 'company/ksd.gif');
     background-size: auto 36px;
 }
 .shinhanlife {
-    background-image: url('../../../imgs/company/shinhanlife.svg');
+    background-image: url($G-path-img + 'company/shinhanlife.svg');
 }
 .eduhansol {
-    background-image: url('../../../imgs/company/eduhansol.png');
+    background-image: url($G-path-img + 'company/eduhansol.png');
     background-size: auto 40px;
 }
 .lotteon {
-    background-image: url('../../../imgs/company/lotteon.png');
+    background-image: url($G-path-img + 'company/lotteon.png');
 }
 .hy {
-    background-image: url('../../../imgs/company/hy.png');
+    background-image: url($G-path-img + 'company/hy.png');
     background-size: auto 36px;
 }
 .kra {
-    background-image: url('../../../imgs/company/kra.svg');
+    background-image: url($G-path-img + 'company/kra.svg');
     background-size: auto 40px;
 }
 .kftc {
-    background-image: url('../../../imgs/company/kftc.png');
+    background-image: url($G-path-img + 'company/kftc.png');
 }
 .ollehtv {
-    background-image: url('../../../imgs/company/ollehtv.png');
+    background-image: url($G-path-img + 'company/ollehtv.png');
 }
 .niceinfo {
-    background-image: url('../../../imgs/company/niceinfo.gif');
+    background-image: url($G-path-img + 'company/niceinfo.gif');
 }
 .galaxy {
-    background-image: url('../../../imgs/company/galaxy.png');
+    background-image: url($G-path-img + 'company/galaxy.png');
 }
 .blackgosi {
-    background-image: url('../../../imgs/company/blackgosi.png');
+    background-image: url($G-path-img + 'company/blackgosi.png');
 }
 .lg-2012 {
-    background-image: url('../../../imgs/company/lg-2012.png');
+    background-image: url($G-path-img + 'company/lg-2012.png');
 }
 .samsung-2014 {
-    background-image: url('../../../imgs/company/samsung-2014.png');
+    background-image: url($G-path-img + 'company/samsung-2014.png');
 }
 .utradehub {
-    background-image: url('../../../imgs/company/utradehub.png');
+    background-image: url($G-path-img + 'company/utradehub.png');
 }
 
 
@@ -183,7 +183,7 @@ logo
     display: inline-block;
     width: 26px;
     height: 26px;
-    background-image: url('../../../imgs/Framework/react.svg');
+    background-image: url($G-path-img + 'Framework/react.svg');
     background-size: auto 100%;
     @include recolor(#087ea4, 1);
 }
@@ -191,7 +191,7 @@ logo
     display: inline-block;
     width: 26px;
     height: 26px;
-    background-image: url('../../../imgs/Framework/vue.png');
+    background-image: url($G-path-img + 'Framework/vue.png');
     background-size: auto 100%;
 }
 
