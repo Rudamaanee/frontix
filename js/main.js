@@ -73,7 +73,7 @@ function renderProjects(data){
             .forEach(item => {
                 const html = `
                 <div class="project-wrap">
-                    <div class="logo ${item.class || ''}">${item.client}</div>
+                    <div class="${item.class || ''}">${item.client}</div>
                     <div class="company">${item.company || ''}</div>
                     <p class="project">${item.project}</p>
                     <p class="period">${item.period || ''}</p>
@@ -93,7 +93,7 @@ function renderCompanies(data){
             if(companySet.has(item.client)) return
             companySet.add(item.client)
             const html = `
-            <swiper-slide class="logo ${item.class || ''}">
+            <swiper-slide class="${item.class || ''}">
                 ${item.client}
             </swiper-slide>
             `
@@ -113,7 +113,7 @@ function renderTimeline(data){
         yearData.items.forEach(item => {
             yearHtml += `
             <div class="timeline-item">
-                <div class="logo ${item.class || ''}">${item.client}</div>
+                <div class="${item.class || ''}">${item.client}</div>
                 <p class="project">${item.project}</p>
                 <p class="tech">${item.tech}</p>
             </div>

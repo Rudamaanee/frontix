@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /* =========================
 Hero
 ========================= */
@@ -75,17 +74,27 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    div {
+    > div {
         padding: 30px;
-        background-color: $card;
         border-radius: 10px;
+        background-color: $card;
     }
     ul {
         margin-top: 10px;
         list-style: none;
+        text-align: center;
     }
     li {
-        padding: 4px 0;
+        display: inline-block;
+        padding: 0 10px;
+    }
+    .logo {
+        min-width: 80px; 
+        height: 80px;
+        background-size: contain;
+        &.jquery {
+            width: 100px;
+        }
     }
 }
 
@@ -100,6 +109,7 @@ company logo
         background-color: $card;
         border-radius: 10px;
     }
+    .only,
     .logo {
         height: 100px;
         margin: 20px 0;
@@ -107,108 +117,9 @@ company logo
         background-color: #fff;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-}
-
-/* =========================
-logo
-========================= */
-.logo {
-    font-size: 0;
-    text-indent: -999em;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: auto 30px;
-}
-.bok {
-    background-image: url($G-path-img + 'company/bok.png');
-    background-size: auto 36px;
-}
-.kbsec {
-    background-image: url($G-path-img + 'company/kbsec.png');
-}
-.uplus {
-    background-image: url($G-path-img + 'company/uplus.png');
-}
-.ellotte {
-    background-image: url($G-path-img + 'company/ellotte.png');
-}
-.starbucks {
-    background-image: url($G-path-img + 'company/starbucks.png');
-    background-size: auto 50px;
-}
-.hanwhalife {
-    background-image: url($G-path-img + 'company/hanwhalife.jpg');
-    background-size: auto 36px;
-}
-.hyundaicard {
-    background-image: url($G-path-img + 'company/hyundaicard.svg');
-}
-.sam {
-    background-image: url($G-path-img + 'company/sam.svg');
-    background-size: auto 36px;
-}
-.ksd {
-    background-image: url($G-path-img + 'company/ksd.gif');
-    background-size: auto 36px;
-}
-.shinhanlife {
-    background-image: url($G-path-img + 'company/shinhanlife.svg');
-}
-.eduhansol {
-    background-image: url($G-path-img + 'company/eduhansol.png');
-    background-size: auto 40px;
-}
-.lotteon {
-    background-image: url($G-path-img + 'company/lotteon.png');
-}
-.hy {
-    background-image: url($G-path-img + 'company/hy.png');
-    background-size: auto 36px;
-}
-.kra {
-    background-image: url($G-path-img + 'company/kra.svg');
-    background-size: auto 40px;
-}
-.kftc {
-    background-image: url($G-path-img + 'company/kftc.png');
-}
-.ollehtv {
-    background-image: url($G-path-img + 'company/ollehtv.png');
-}
-.niceinfo {
-    background-image: url($G-path-img + 'company/niceinfo.gif');
-}
-.galaxy {
-    background-image: url($G-path-img + 'company/galaxy.png');
-}
-.blackgosi {
-    background-image: url($G-path-img + 'company/blackgosi.png');
-}
-.lg-2012 {
-    background-image: url($G-path-img + 'company/lg-2012.png');
-}
-.samsung-2014 {
-    background-image: url($G-path-img + 'company/samsung-2014.png');
-}
-.utradehub {
-    background-image: url($G-path-img + 'company/utradehub.png');
-}
-
-
-.react {
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    background-image: url($G-path-img + 'Framework/react.svg');
-    background-size: auto 100%;
-    @include recolor(#087ea4, 1);
-}
-.vue {
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    background-image: url($G-path-img + 'Framework/vue.png');
-    background-size: auto 100%;
+    .only {
+        line-height: 100px;
+    }
 }
 
 
@@ -267,6 +178,7 @@ Career Timeline
             }
             span {
                 display: block;
+                min-height: 32px;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-size: 20px;
             }
@@ -275,6 +187,7 @@ Career Timeline
     .item-wrap {
         .timeline-item {
             position: relative;
+            min-height: 154px;
             padding: 30px;
             margin-bottom: 20px;
             background-color: #fff;
@@ -299,6 +212,9 @@ Career Timeline
         .logo {
             width: 100%;
             height: 50px;
+        }
+        .only {
+            line-height: 50px;
         }
         .tech {
             font-size: 12px;
