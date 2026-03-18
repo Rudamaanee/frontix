@@ -21,21 +21,13 @@ h3 {
     h2 {
         font-size: 56px;
     }
-}
-
-.role {
-    font-size: 24px;
-    color: $sub;
-    margin-top: 10px;
-}
-
-.exp {
-    margin-top: 10px;
-}
-
-.stack {
-    margin-top: 20px;
-    color: $sub;
+    .headline {
+        margin-top: 20px;
+    }
+    .stack {
+        margin-top: 20px;
+        color: $sub;
+    }
 }
 
 .project-list {
@@ -79,12 +71,19 @@ h3 {
         border-radius: 10px;
         background-color: $card;
     }
-    ul {
+    dl {
         margin-top: 10px;
+        padding: 20px;
         list-style: none;
-        text-align: center;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-    li {
+    dt {
+        font-size: 20px;
+        color: #111;
+    }
+    dd {
         display: inline-block;
         padding: 0 10px;
     }

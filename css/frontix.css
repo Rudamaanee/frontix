@@ -616,17 +616,11 @@ h3 span {
   font-size: 56px;
 }
 
-.role {
-  font-size: 24px;
-  color: #94a3b8;
-  margin-top: 10px;
+.hero .headline {
+  margin-top: 20px;
 }
 
-.exp {
-  margin-top: 10px;
-}
-
-.stack {
+.hero .stack {
   margin-top: 20px;
   color: #94a3b8;
 }
@@ -676,13 +670,21 @@ h3 span {
   background-color: #fff;
 }
 
-.skills-grid ul {
+.skills-grid dl {
   margin-top: 10px;
+  padding: 20px;
   list-style: none;
-  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.skills-grid li {
+.skills-grid dt {
+  font-size: 20px;
+  color: #111;
+}
+
+.skills-grid dd {
   display: inline-block;
   padding: 0 10px;
 }
