@@ -75,8 +75,8 @@
             <dl>
                 <dt>Framework</dt>
                 <dd>
-                    <li><div class="logo react">React</div></li>
-                    <li><div class="logo vue">Vue</div></li>
+                    <div class="logo react">React</div>
+                    <div class="logo vue">Vue</div>
                 </dd>
             </dl>
             <dl>
@@ -105,51 +105,34 @@
     </div>
 </footer>
 
-<script src="./js/main.js"></script>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <button class="close">&times;</button>
+
+        <p id="modal-client"></p>
+        <h3 id="modal-project"></h3>
+        <p id="modal-period"></p>
+
+        <div class="modal-section">
+        <strong>문제</strong>
+        <p id="modal-problem"></p>
+        </div>
+
+        <div class="modal-section">
+        <strong>해결</strong>
+        <p id="modal-solution"></p>
+        </div>
+
+        <div class="modal-section">
+        <strong>기술</strong>
+        <p id="modal-tech"></p>
+        </div>
+    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
-<script>
-
-// 콘솔창 차단 스크립트
-// 개발자도구 단축키 차단
-document.addEventListener('keydown', function(event) {
-    if (
-        event.keyCode === 123 || // F12
-        (event.ctrlKey && event.shiftKey && event.keyCode === 73) || // Ctrl+Shift+I
-        (event.ctrlKey && event.shiftKey && event.keyCode === 74) || // Ctrl+Shift+J
-        (event.ctrlKey && event.keyCode === 85) // Ctrl+U
-    ) {
-        event.preventDefault();
-        alert("개발자 도구 사용이 금지되어 있습니다.");
-    }
-});
-
-// 우클릭 차단
-document.addEventListener('contextmenu', function(e){
-    e.preventDefault();
-    alert("우클릭이 금지되어 있습니다.");
-});
-// 개발자도구 감지
-const devToolsDetector = () => {
-
-    const callback = () => {
-        alert("개발자 도구 사용이 감지되었습니다.");
-    };
-
-    const checkStatus = () => {
-
-        const startTime = performance.now();
-        debugger;
-        const endTime = performance.now();
-
-        if (endTime - startTime > 100) {
-            callback();
-        }
-    };
-    setInterval(checkStatus, 1000);
-};
-devToolsDetector();
-// 콘솔창 차단 스크립트 끝
-</script>
+<script src="./js/main.js"></script>
+<!-- <script src="./js/common.js"></script> -->
 
 </body>
 </html>

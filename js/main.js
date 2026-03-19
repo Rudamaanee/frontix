@@ -1,68 +1,10 @@
-// fetch('./datas/timeline.json')
-// .then(res=>res.json())
-// .then(data=>{
-// const list=document.getElementById('projects')
-//     year.items.forEach(item=>{
-//     const html=`
-//         <div class="project-wrap">
-//             <div class="logo ${item.class}">${item.client}</div>
-//             <div class="company">${item.company}</div>
-//             <p class="project">${item.project}</p>
-//             <p class="period">${item.period}</p>
-//             <p class="tech">${item.tech}</p>
-//         </div>
-//     `
-//     list.insertAdjacentHTML('beforeend',html)
-//     })
-// }) //project
-
-// fetch('./datas/timeline.json')
-// .then(res => res.json())
-// .then(data => {
-//     const companies = document.getElementById('companies')
-//     data.forEach(year => {
-//         year.items.forEach(item => {
-//             const logoClass = item.class || ''
-//             const html = `
-//             <swiper-slide class="logo ${logoClass}">
-//                 ${item.client}
-//             </swiper-slide>
-//             `
-//             companies.insertAdjacentHTML('beforeend', html)
-//         })
-//     })
-// })//companies
-
-// fetch('./datas/timeline.json')
-//     .then(res => res.json())
-//     .then(data => {
-//         const container = document.getElementById('timeline')
-//         data.forEach(yearData => {
-//         let yearHtml = `
-//             <swiper-slide class="timeline-year">
-//             <div class="year"><span>${yearData.year}</span></div>
-//             <div class="item-wrap">
-//         `
-//         yearData.items.forEach(item => {
-//             yearHtml += `
-//             <div class="timeline-item">
-//                 <div class="logo ${item.class}">${item.client}</div>
-//                 <p class="project">${item.project}</p>
-//                 <p class="tech">${item.tech}</p>
-//             </div>
-//             `
-//         })
-//         yearHtml += `</div></swiper-slide>`
-//         container.insertAdjacentHTML('beforeend', yearHtml)
-//     })
-// }) //timeline
-
 fetch('./datas/timeline.json')
 .then(res => res.json())
 .then(data => {
     renderProjects(data)
     renderCompanies(data)
     renderTimeline(data)
+    bindModalEvent(data)
 })
 
 function renderProjects(data){
@@ -77,7 +19,7 @@ function renderProjects(data){
                     <div class="company">${item.company || ''}</div>
                     <p class="project">${item.project}</p>
                     <p class="period">${item.period || ''}</p>
-                    <p class="tech">${item.tech || ''}</p>
+                    <p class="meta">${item.role || ''}</p>
                 </div>
                 `
                 list.insertAdjacentHTML('beforeend', html)
@@ -112,7 +54,14 @@ function renderTimeline(data){
         `
         yearData.items.forEach(item => {
             yearHtml += `
-            <div class="timeline-item">
+            <div class="timeline-item"
+                data-client="${item.client}"
+                data-project="${item.project || ''}"
+                data-period="${item.period || ''}"
+                data-problem="${item.problem || ''}"
+                data-solution="${item.solution || ''}"
+                data-tech="${item.tech || ''}"
+            >
                 <div class="${item.class || ''}">${item.client}</div>
                 <p class="project">${item.project}</p>
                 <p class="tech">${item.tech}</p>
@@ -122,4 +71,60 @@ function renderTimeline(data){
         yearHtml += `</div></swiper-slide>`
         container.insertAdjacentHTML('beforeend', yearHtml)
     })
+    bindModalEvent() // 👉 반드시 실행
 } //timeline
+
+function bindModalEvent(){
+    const modal = document.getElementById('modal')
+    const closeBtn = document.querySelector('.modal .close')
+    document.querySelectorAll('.timeline-item').forEach(item => {
+        item.addEventListener('click', () => {
+            // 공통 처리 함수
+            const toggleField = (id, value) => {
+                const el = document.getElementById(id)
+                const section = el.closest('.modal-section')
+                if(value && value.trim() !== '' && value !== 'undefined'){
+                    el.innerText = value
+                    if(section) section.style.display = 'block'
+                } else {
+                    if(section) section.style.display = 'none'
+                }
+            }
+            
+              // ✔ p 태그에 class + 텍스트 같이 적용
+            const clientEl = document.getElementById('modal-client')
+
+            clientEl.className = item.dataset.class || ''
+            clientEl.innerText = item.dataset.client || ''
+            console.log(item.dataset.class)
+            // const clientEl = document.getElementById('modal-client')
+
+            // clientEl.className = item.dataset.class || '' // class 추가
+            // clientEl.innerText = item.dataset.client || '' // 텍스트
+
+            document.getElementById('modal-project').innerText =
+                item.dataset.project || ''
+            // period (값 없으면 숨김)
+            const periodEl = document.getElementById('modal-period')
+            if(item.dataset.period && item.dataset.period.trim() !== ''){
+                periodEl.innerText = item.dataset.period
+                periodEl.style.display = 'block'
+            } else {
+                periodEl.style.display = 'none'
+            }
+            // 나머지 필드
+            toggleField('modal-problem', item.dataset.problem)
+            toggleField('modal-solution', item.dataset.solution)
+            toggleField('modal-tech', item.dataset.tech)
+            modal.style.display = 'block'
+        })
+    })
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none'
+    })
+    modal.addEventListener('click', (e) => {
+        if(e.target === modal){
+            modal.style.display = 'none'
+        }
+    })
+} //modal

@@ -88,11 +88,15 @@ h3 {
         padding: 0 10px;
     }
     .logo {
-        min-width: 80px; 
-        height: 80px;
+        $size: 40px;
+        min-width: $size; 
+        height: $size;
         background-size: contain;
         &.jquery {
             width: 100px;
+        }
+        + .logo {
+            margin-left: 20px;
         }
     }
 }
