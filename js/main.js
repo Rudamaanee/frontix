@@ -4,7 +4,6 @@ fetch('./datas/timeline.json')
     renderProjects(data)
     renderCompanies(data)
     renderTimeline(data)
-    bindModalEvent(data)
 })
 
 function renderProjects(data){
@@ -15,7 +14,7 @@ function renderProjects(data){
             .forEach(item => {
                 const html = `
                 <div class="project-wrap">
-                    <div class="${item.class || ''}">${item.client}</div>
+                    <div class="${item.logo || ''}">${item.client}</div>
                     <div class="company">${item.company || ''}</div>
                     <p class="project">${item.project}</p>
                     <p class="period">${item.period || ''}</p>
@@ -35,7 +34,7 @@ function renderCompanies(data){
             if(companySet.has(item.client)) return
             companySet.add(item.client)
             const html = `
-            <swiper-slide class="${item.class || ''}">
+            <swiper-slide class="${item.logo || ''}">
                 ${item.client}
             </swiper-slide>
             `
@@ -56,13 +55,14 @@ function renderTimeline(data){
             yearHtml += `
             <div class="timeline-item"
                 data-client="${item.client}"
+                data-logo="${item.logo}"
                 data-project="${item.project || ''}"
                 data-period="${item.period || ''}"
-                data-problem="${item.problem || ''}"
-                data-solution="${item.solution || ''}"
+                data-contribution="${item.contribution || ''}"
                 data-tech="${item.tech || ''}"
+                data-role="${item.role || ''}"
             >
-                <div class="${item.class || ''}">${item.client}</div>
+                <div class="${item.logo || ''}">${item.client}</div>
                 <p class="project">${item.project}</p>
                 <p class="tech">${item.tech}</p>
             </div>
@@ -91,16 +91,11 @@ function bindModalEvent(){
                 }
             }
             
-              // ✔ p 태그에 class + 텍스트 같이 적용
+            // ✔ p 태그에 class + 텍스트 같이 적용
             const clientEl = document.getElementById('modal-client')
 
-            clientEl.className = item.dataset.class || ''
-            clientEl.innerText = item.dataset.client || ''
-            console.log(item.dataset.class)
-            // const clientEl = document.getElementById('modal-client')
-
-            // clientEl.className = item.dataset.class || '' // class 추가
-            // clientEl.innerText = item.dataset.client || '' // 텍스트
+            clientEl.className = item.dataset.logo || '' // class 추가
+            clientEl.innerText = item.dataset.client || '' // 텍스트
 
             document.getElementById('modal-project').innerText =
                 item.dataset.project || ''
@@ -113,9 +108,9 @@ function bindModalEvent(){
                 periodEl.style.display = 'none'
             }
             // 나머지 필드
-            toggleField('modal-problem', item.dataset.problem)
-            toggleField('modal-solution', item.dataset.solution)
+            toggleField('modal-contribution', item.dataset.contribution)
             toggleField('modal-tech', item.dataset.tech)
+            toggleField('modal-role', item.dataset.role)
             modal.style.display = 'block'
         })
     })

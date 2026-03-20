@@ -3,12 +3,14 @@
         "year": "2026",
         "items": [
             {
+                "major": false,
                 "client": "준비중",
-                "class": "only",
+                "logo": "only",
                 "company": "",
-                "period": "",
                 "project": "",
+                "period": "",
                 "role": "",
+                "contribution": "",
                 "tech": ""
             }
         ]
@@ -19,13 +21,12 @@
             {
                 "major": true,
                 "client": "한국은행",
-                "class": "logo bok",
+                "logo": "logo bok",
                 "company": "(주)에스아스",
                 "project": "디지털혁신실 정보시스템 운영",
                 "period": "2024.01.08~2025.08.31",
                 "role": "Publishing & Design 100%",
-                "problem": "공통 UI 부재로 중복 코드 발생",
-                "solution": "SCSS 구조화 및 공통 컴포넌트 설계",
+                "contribution": "React 기반 UI 구조 설계 및 SCSS 아키텍처 구축, 공통 컴포넌트 설계로 중복 코드 제거 및 유지보수성 개선",
                 "tech": "React / SCSS / Javascript"
             }
         ]
@@ -36,13 +37,12 @@
             {
                 "major": true,
                 "client": ["KB증권", "롯데손해보험", "근로복지공단", "동양생명"],
-                "class": "logo kbsec",
+                "logo": "logo kbsec",
                 "company": "㈜베리션트",
                 "project": "FCC콜인프라구축 KMS/WFMS 스마트허브 솔루션 개발",
                 "period": "2021.08.01~2023.10.31",
                 "role": "Publishing & Design 100%",
-                "problem": "",
-                "solution": "공통 UI",
+                "contribution": "콜 인프라 UI 퍼블리싱 및 KMS/WFMS 화면 구현, 다수 시스템 공통 UI 가이드 적용으로 일관성 확보",
                 "tech": "HTML, jQuery, javascript, SCSS"
             }
         ]
@@ -52,25 +52,23 @@
         "items": [
             {
                 "client": "신한생명",
-                "class": "logo shinhanlife",
+                "logo": "logo shinhanlife",
                 "company": "카라스페이스",
                 "project": "차세대 듀얼 콜센터 구축",
                 "period": "2021.04.01~2021.07.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "major": true,
                 "client": "LG U+",
-                "class": "logo uplus",
+                "logo": "logo uplus",
                 "company": "㈜에버커스",
                 "project": "U+ 통합요금시뮬레이터 구축",
                 "period": "2021.01.29~2021.03.28",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "WebSquare 기반 요금 시뮬레이터 UI 구현 및 컴포넌트 구조 정리, 사용자 입력 흐름 최적화",
                 "tech": "웹스퀘어, html, css"
             }
         ]
@@ -81,23 +79,21 @@
             {
                 "major": true,
                 "client": "한화시스템즈",
-                "class": "logo hanwhalife",
+                "logo": "logo hanwhalife",
                 "company": "㈜에이디앤스타일",
                 "project": "한화생명 업무공유시스템",
                 "period": "2020.07.08~2020.12.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "Vue 기반 업무 시스템 UI 개발 및 공통 레이아웃 구성, 재사용 가능한 컴포넌트 설계",
                 "tech": "VueJs, html, css"
             },
             {
                 "client": "주식회사 몬스빌",
-                "class": "only",
+                "logo": "only",
                 "project": "내부업무시스템 퍼블리싱",
                 "period": "2020.04.01~2020.05.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             }
         ]
@@ -107,25 +103,23 @@
         "items": [
             {
                 "client": "KT",
-                "class": "logo livead",
+                "logo": "logo livead",
                 "company": "카라스페이스",
                 "project": "KT Live AD 프로젝트 퍼블리싱",
                 "period": "2019.12.01~2020.02.28",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "대규모 서비스 퍼블리싱 및 인터랙션 구현, 다양한 디바이스 대응 및 UI 품질 개선",
                 "tech": "HTML, javascript, jQuery, css"
             },
             {
                 "major": true,
                 "client": "롯데e-커머스",
-                "class": "logo lotteon",
+                "logo": "logo lotteon",
                 "company": "메디네트웍스㈜",
                 "project": "통합앱 챗봇 구축 프로젝트",
                 "period": "2019.10.16~2020.04.28",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, css, javascript"
             }
         ]
@@ -136,13 +130,12 @@
             {
                 "major": true,
                 "client": "한국야쿠르트",
-                "class": "logo hy",
+                "logo": "logo hy",
                 "company": "㈜비티소프트",
                 "project": "한국야쿠르트 모바일웹 리뉴얼",
                 "period": "2019.06.03~2019.09.16",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, javascript, JQuery, css"
             }
         ]
@@ -153,13 +146,12 @@
             {
                 "major": false,
                 "client": "롯데e-커머스",
-                "class": "logo ellotte",
+                "logo": "logo ellotte",
                 "company": "시스포유아이앤씨",
                 "project": "FO㈜/BO New 엘롯데 서비스 운영",
                 "period": "2018.11.01~2019.04.30",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, javascript, JQuery, css, 웹스퀘어"
             }
         ]
@@ -169,12 +161,11 @@
         "items": [
             {
                 "client": "㈜디딤유",
-                "class": "only",
+                "logo": "only",
                 "project": "솔루선 구축",
                 "period": "2018.08.01~2018.08.30",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech" : "HTML, javascript, JQuery, css"
             }
         ]
@@ -185,13 +176,12 @@
             {
                 "major": true,
                 "client": "롯데미래전략연구소(주)",
-                "class": "logo ellotte",
+                "logo": "logo ellotte",
                 "company": "㈜타란UXD",
                 "project": "통합 BO 플랫폼 구축 프로젝트",
                 "period": "2017.10.23~2018.10.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "웹스퀘어"
             }
         ]
@@ -201,23 +191,21 @@
         "items": [
             {
                 "client": "신세계 법인영업",
-                "class": "only",
+                "logo": "only",
                 "company": "(주)유비젠에스엔티 / ㈜돋움",
                 "project": "신세계폐쇄몰 리뉴얼",
                 "period": "2017.06.15~2017.09.14",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, javascript, JQuery, css"
             },
             {
                 "client": "㈜다음엔소프트",
-                "class": "only",
+                "logo": "only",
                 "project": "HTML 콘텐츠 개발",
                 "period": "2017.03.10~2017.04.9",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, javascript, JQuery, css"
             }
         ]
@@ -227,13 +215,12 @@
         "items": [
             {
                 "client": "한솔교육",
-                "class": "logo eduhansol",
+                "logo": "logo eduhansol",
                 "company": "㈜넥스트티",
                 "project": "한솔교육 사이트 반응형 리뉴얼",
                 "period": "2016.11.10~2017.01.12",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, javascript, JQuery, css"
             }
         ]
@@ -243,36 +230,33 @@
         "items": [
             {
                 "client": "ktnet",
-                "class": "logo utradehub",
+                "logo": "logo utradehub",
                 "company": "㈜웹소울랩",
                 "project": "uTreadHub 통합포탈(국문, 영문, 일문, 중문), 요건확인, 전자문서보관소, 글로벌 포털 퍼블리싱",
                 "period": "2016.07.01~2016.10.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, javascript, JQuery"
             },
             {
                 "client": "현대오일뱅크 Xteer, 한솔 두을장학재단, BNK 캐파탈",
-                "class": "logo hyundaixteer",
+                "logo": "logo hyundaixteer",
                 "company": "㈜아이스큐브",
                 "project": "현대오일뱅크 Xteer 모바일, 웹 / 한솔 두을장학재단 모바일, 웹 / BNK 캐피탈 모바일 리뉴얼 ",
                 "period": "2016.05.25~2016.6.30",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript"
             },
             {
                 "major": true,
                 "client": "현대카드",
-                "class": "logo hyundaicard",
+                "logo": "logo hyundaicard",
                 "company": "㈜플레닛텍",
                 "project": "웹, 모바일 리뉴얼",
                 "period": "2016.02.01~2016.04.30",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript"
             }
         ]
@@ -283,13 +267,12 @@
             {
                 "major": true,
                 "client": "스타벅스커피코리아",
-                "class": "logo starbucks",
+                "logo": "logo starbucks",
                 "company": "㈜님스넷 / 다임정보 / 아이엔테크㈜",
                 "project": "Smart ERP 웹, 모바일 구축",
                 "period": "2015.05.19~2016.01.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "Nexacro 기반 ERP UI 퍼블리싱 및 업무 화면 컴포넌트 구현, 데이터 바인딩 구조 최적화",
                 "tech": "넥사크로"
             }
         ]
@@ -299,12 +282,11 @@
         "items": [
             {
                 "client": "㈜님스넷",
-                "class": "only",
+                "logo": "only",
                 "project": "내부프로젝트 Snet 가이드 작업, 독일통일 아카이브 구축",
                 "period": "2015.02.01~2015.05.16",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css, CMS"
             }
         ]
@@ -314,57 +296,52 @@
         "items": [
             {
                 "client": "마사회",
-                "class": "logo kra",
+                "logo": "logo kra",
                 "company": "비에이비오커뮤니케이션㈜ / 메이드웹",
                 "project": "PC 웹사이트 모바일 최적화 리뉴얼 퍼블리싱",
                 "period": "2014.11.18~2014.12.17",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "client": "금융결제원",
-                "class": "logo kftc",
+                "logo": "logo kftc",
                 "company": "비에이비오커뮤니케이션㈜ / 메이드웹",
                 "project": "금융결제원 운영 CMS 개선 웹, 모바일 퍼블리싱",
                 "period": "2014.10.06~2014.11.05",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css, CMS"
             },
             {
                 "client": "KTH",
-                "class": "logo ollehtv",
+                "logo": "logo ollehtv",
                 "company": "JYES",
                 "project": "올레 tv 모바일 청약 V4 퍼블리싱",
                 "period": "2014.08.04~2014.10.27",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "client": "Samsung",
-                "class": "logo samsung-2014",
+                "logo": "logo samsung-2014",
                 "company": "하이코딩",
-                "project": "Samsung Saas B2B Biz Solution 구축",
+                "project": "Samsung Saas B2B Biz contribution 구축",
                 "period": "2014.07.14~2014.08.29",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "client": "KTH",
-                "class": "logo ollehtv",
+                "logo": "logo ollehtv",
                 "company": "JYES",
                 "project": "올레 tv 모바일 청약 V34 퍼블리싱",
                 "period": "2014.04.07~2014.06.30",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             }
         ]
@@ -375,58 +352,53 @@
             {
                 "major": true,
                 "client": "교보문고",
-                "class": "logo sam",
+                "logo": "logo sam",
                 "company": "아이디티정보기술㈜ FEDLAB / 인픽스",
                 "project": "교보문고 SAM 모바일 고도화 작업",
                 "period": "2013.11.14~2013.12.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "major": true,
                 "client": "LGU+",
-                "class": "logo uplus",
+                "logo": "logo uplus",
                 "company": "아이디티정보기술㈜ FEDLAB / 미디어로그",
                 "project": "모바일 고도화 작업 PL",
                 "period": "2013.09.01~2013.10.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "client": "나이스신용평가정보",
-                "class": "logo niceinfo",
+                "logo": "logo niceinfo",
                 "company": "Masstige",
                 "project": "나이스 신용평가정보 웹표준화 및 접근성 작업",
                 "period": "2013.04.01~2013.05.31",
                 "role": "Publishing 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "client": "제일모직 갤럭시",
-                "class": "logo galaxy",
+                "logo": "logo galaxy",
                 "company": "프리웹클럽",
                 "project": "제일모직 갤럭시 웹표준화 및 접근성 작업",
                 "period": "2013.03.18~2013.03.31",
                 "role": "Publishing 100%",
-                "problem": "웹 표준화",
-                "solution": "Flash 제거",
+                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
                 "tech": "HTML, javascript, css"
             },
             {
                 "client": "KBS",
-                "class": "logo kbs",
+                "logo": "logo kbs",
                 "company": "무한도전",
                 "project": "KBS 모바일 메인/TV 웹표준화 및 접근성 작업",
                 "period": "2013.02.13~2013.03.03",
                 "role": "Publishing 60%",
-                "problem": "웹표준화 및 접근성",
-                "solution": "",
+                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
                 "tech": "HTML, jQuery, javascript, css"
             }
         ]
@@ -437,13 +409,13 @@
             {
                 "major": true,
                 "client": "한국예탁결제원",
-                "class": "logo ksd",
+                "logo": "logo ksd",
                 "company": "낯선웹 주시회사 ",
                 "project": "한국예탁결제원 증권포털 웹, 모바일 리뉴얼",
                 "period": "2012.09.10~2013.02.09",
                 "role": "Publishing PL",
                 "problem": "jsp 웹스퀘어 전환 작업",
-                "solution": "",
+                "contribution": "",
                 "tech": "웹스퀘어"
             }
         ]
@@ -453,23 +425,22 @@
         "items": [
             {
                 "client": "LG",
-                "class": "logo lg-2012",
+                "logo": "logo lg-2012",
                 "company": "모티인터내셔널",
                 "project": "LG Global Site 리뉴얼",
                 "period": "2012.06.18~2012.09.04",
                 "role": "우정렬 국가 Publishing 60%",
                 "problem": "크로스 브라우징 ie6 이슈",
-                "solution": "IE6에만 적용되는 CSS 분리",
+                "contribution": "IE6에만 적용되는 CSS 분리",
                 "tech": "HTML, jQuery, javascript, css"
             },
             {
                 "client": "엠원소프트",
-                "class": "only",
+                "logo": "only",
                 "project": "학원관리시스템 및 홈페이지 디자인 개발",
                 "period": "2012.02.20~2012.03.30",
                 "role": "Publishing & Design 100%",
-                "problem": "",
-                "solution": "",
+                "contribution": "",
                 "tech": "HTML, jQuery, javascript, css"
             }
         ]
@@ -479,13 +450,12 @@
         "items": [
             {
                 "client": "한양학원",
-                "class": "logo blackgosi",
+                "logo": "logo blackgosi",
                 "company": "매경IC",
                 "project": "한양학원, 애플튜터외 다수 사이트 작업",
                 "period": "2005.11.~2006.06.",
                 "role": "Publishing 30%, Editorial Design 40%",
-                "problem": "",
-                "solution": "Flash 구현",
+                "contribution": "Flash 구현",
                 "tech": "Photoshop, Flash, illustrator, indesign, HTML, javascript, css"
             }
         ]
