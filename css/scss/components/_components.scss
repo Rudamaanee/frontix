@@ -157,4 +157,6 @@ modal
 ========================= */
 
 
-
+#timeline .swiper-wrapper {
+    transition: height 0.3s ease;
+}

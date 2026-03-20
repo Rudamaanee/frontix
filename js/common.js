@@ -1,5 +1,7 @@
-// 콘솔창 차단 스크립트
-// 개발자도구 단축키 차단
+/* =========================
+    콘솔창 차단 스크립트
+    개발자도구 단축키 차단
+========================= */
 document.addEventListener('keydown', function(event) {
     if (
         event.keyCode === 123 || // F12
@@ -37,4 +39,4 @@ const devToolsDetector = () => {
     setInterval(checkStatus, 1000);
 };
 devToolsDetector();
-// 콘솔창 차단 스크립트 끝
+

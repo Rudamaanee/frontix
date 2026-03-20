@@ -480,6 +480,10 @@ modal
 /* =========================
 
 ========================= */
+#timeline .swiper-wrapper {
+  transition: height 0.3s ease;
+}
+
 /* =========================
 logo 
 ========================= */
@@ -832,6 +836,7 @@ Career Timeline
 .career .timeline-year {
   position: relative;
   width: auto;
+  height: initial !important;
   white-space: nowrap;
 }
 
