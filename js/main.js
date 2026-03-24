@@ -75,7 +75,31 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', updateHeight)
 }) //autoHeight
 
+/* =========================
+EmailJS
+========================= */
+emailjs.init("l7tC6WstqwN_a1V7_");
+
+const form = document.getElementById('contact-form')
+
+form.addEventListener('submit', function(e){
+    e.preventDefault()
+
+    // honeypot
+    if (form.company.value) return
+
+    emailjs.sendForm(
+        'service_7e15eot',
+        'template_o35122b',
+        form
+    ).then(() => {
+        alert('메일 전송 완료')
+    form.reset()
+    }, () => {
+        alert('전송 실패')
+    })
+}) //EmailJS
 
 /* =========================
-swipe autoHeight
+
 ========================= */
