@@ -921,6 +921,94 @@ swiper-slide img {
 }
 
 /* =========================
+contact
+========================= */
+.contact {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.contact .contact-card {
+  max-width: 720px;
+  margin: 40px auto 0;
+  padding: 40px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+}
+
+.contact .contact-desc {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact .contact-form .form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.contact .contact-form .form-row input {
+  flex: 1;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.contact .contact-form textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+.contact .btn-send {
+  margin-top: 10px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact .btn-send:hover {
+  background: #333;
+}
+
+.contact .contact-alt {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+.contact .contact-alt .btn-mail {
+  margin-left: 8px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.contact .hidden {
+  display: none;
+}
+
+/* =========================
 
 ========================= */
 /* =========================

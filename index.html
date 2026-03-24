@@ -98,10 +98,35 @@
     </div>
 </section>
 
+<section class="contact">
+    <div class="container">
+        <h3><span>Contact</span></h3>
+
+        <div class="contact-card">
+            <p class="contact-desc">협업 및 프로젝트 문의는 아래 폼으로 보내주세요.\</p>
+
+            <form id="contact-form" class="contact-form">
+                <div class="form-row">
+                <input type="text" name="name" placeholder="이름" required>
+                <input type="email" name="email" placeholder="이메일" required>
+                </div>
+
+                <textarea name="message" placeholder="문의 내용을 입력해주세요" required></textarea>
+
+                <!-- honeypot -->
+                <input type="text" name="company" class="hidden">
+
+                <button type="submit" class="btn-send">메일 보내기</button>
+            </form>
+        </div>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="container">
         <p>© 2026 Frontix Portfolio</p>
     </div>
+
 </footer>
 
 <div id="modal" class="modal">
@@ -112,17 +137,14 @@
             <p id="modal-period"></p>
         </div>
         <h3 id="modal-project"></h3>
-        
         <div class="modal-section">
             <strong>직무</strong>
             <p id="modal-role"></p>
         </div>
-
         <div class="modal-section">
             <strong>기여도</strong>
             <p id="modal-contribution"></p>
         </div>
-
         <div class="modal-section">
             <strong>기술</strong>
             <p id="modal-tech"></p>
@@ -131,9 +153,36 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
 <script src="./js/json.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/common.js"></script>
 
+<script>
+(function(){
+    emailjs.init("l7tC6WstqwN_a1V7_");
+
+    const form = document.getElementById('contact-form')
+
+    form.addEventListener('submit', function(e){
+        e.preventDefault()
+
+        // honeypot
+        if (form.company.value) return
+
+        emailjs.sendForm(
+        'service_7e15eot',
+        'template_u2us10i',
+        form
+        ).then(() => {
+        alert('메일 전송 완료')
+        form.reset()
+        }, () => {
+        alert('전송 실패')
+        })
+    })
+})();
+</script>
 </body>
 </html>
