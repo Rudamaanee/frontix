@@ -27,7 +27,7 @@
                 "period": "2024.01.08~2025.08.31",
                 "role": "Publishing & Design 100%",
                 "contribution": "React 기반 UI 구조 설계 및 SCSS 아키텍처 구축, 공통 컴포넌트 설계로 중복 코드 제거 및 유지보수성 개선",
-                "tech": "React, HTML5, SCSS, CSS3, Javascript, jQuery"
+                "tech": "React, HTML5, SCSS, CSS3, Javascript, jQuery, VScode"
             }
         ]
     },
@@ -69,7 +69,7 @@
                 "period": "2021.01.29~2021.03.28",
                 "role": "Publishing 100%",
                 "contribution": "WebSquare 기반 요금 시뮬레이터 UI 구현 및 컴포넌트 구조 정리, 사용자 입력 흐름 최적화",
-                "tech": "웹스퀘어, HTML5, CSS3, Eclipse"
+                "tech": "웹스퀘어, HTML5, CSS3, Eclipse, VScode"
             }
         ]
     },
@@ -109,7 +109,7 @@
                 "period": "2019.12.01~2020.02.28",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터랙션 구현, 다양한 디바이스 대응 및 UI 품질 개선",
-                "tech": "HTML5, CSS3, javascript, jQuery, VSCode"
+                "tech": "HTML5, CSS3, javascript, jQuery, SublimeText3"
             },
             {
                 "major": true,
@@ -120,7 +120,7 @@
                 "period": "2019.10.16~2020.04.28",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 대화형 인터페이스 구현",
-                "tech": "HTML5, CSS3, javascript, Eclipse, VSCode"
+                "tech": "HTML5, CSS3, javascript, Eclipse, SublimeText3"
             }
         ]
     },
@@ -136,7 +136,7 @@
                 "period": "2019.06.03~2019.09.16",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML5, CSS3, javascript, jQuery, Eclipse, VSCode"
+                "tech": "HTML5, CSS3, javascript, jQuery, Eclipse, SublimeText3"
             }
         ]
     },
@@ -152,7 +152,7 @@
                 "period": "2018.11.01~2019.04.30",
                 "role": "Publishing PL",
                 "contribution": "UI 퍼블리싱 및 운영 업무 총괄",
-                "tech": "웹스퀘어, HTML5, SCSS, CSS3, jQuery, javascript, VSCode, Eclipse"
+                "tech": "웹스퀘어, HTML5, SCSS, CSS3, jQuery, javascript, SublimeText3, Eclipse"
             }
         ]
     },
@@ -166,7 +166,7 @@
                 "period": "2018.08.01~2018.08.30",
                 "role": "Publishing 100%",
                 "contribution": "업무 시스템 솔루션 구축 UI 퍼블리싱",
-                "tech" : "HTML5, CSS3, javascript, jQuery, VSCode"
+                "tech" : "HTML5, CSS3, javascript, jQuery, SublimeText3"
             }
         ]
     },
@@ -182,7 +182,7 @@
                 "period": "2017.10.23~2018.10.31",
                 "role": "Publishing PL",
                 "contribution": "WebSquare 기반 UI 퍼블리싱 및 화면 구조 설계",
-                "tech": "웹스퀘어, HTML5, CSS3, VSCode, Eclipse"
+                "tech": "웹스퀘어, HTML5, CSS3, SublimeText3, Eclipse"
             }
         ]
     },
@@ -197,7 +197,7 @@
                 "period": "2017.06.15~2017.09.14",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML5, CSS3, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, jQuery, javascript, SublimeText3, Eclipse"
             },
             {
                 "client": "㈜다음엔소프트",
@@ -206,7 +206,7 @@
                 "period": "2017.03.10~2017.04.9",
                 "role": "Publishing 100%",
                 "contribution": "HTML 기반 콘텐츠 개발 및 UI 퍼블리싱",
-                "tech": "HTML5, CSS3, javascript, jQuery, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, javascript, jQuery, SublimeText3, Eclipse"
             }
         ]
     },
@@ -221,7 +221,7 @@
                 "period": "2016.11.10~2017.01.12",
                 "role": "Publishing PL",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML5, CSS3, javascript, jQuery, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, javascript, jQuery, SublimeText3, Eclipse"
             }
         ]
     },
@@ -236,7 +236,7 @@
                 "period": "2016.07.01~2016.10.31",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML5, CSS3, javascript, JQuery, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, javascript, JQuery, SublimeText3, Eclipse"
             },
             {
                 "client": "현대오일뱅크 Xteer, 한솔 두을장학재단, BNK 캐파탈",
@@ -246,7 +246,7 @@
                 "period": "2016.05.25~2016.6.30",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML5, CSS3, javascript, JQuery, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, javascript, JQuery, Editplus, Eclipse"
             },
             {
                 "major": true,
@@ -257,7 +257,7 @@
                 "period": "2016.02.01~2016.04.30",
                 "role": "Publishing PL",
                 "contribution": "PL로서 UI 퍼블리싱 및 인터페이스 개선 총괄",
-                "tech": "HTML5, CSS3, javascript, JQuery, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, javascript, JQuery, Editplus, Eclipse"
             }
         ]
     },
@@ -273,7 +273,7 @@
                 "period": "2015.05.19~2016.01.31",
                 "role": "Publishing 100%",
                 "contribution": "Nexacro 기반 ERP UI 퍼블리싱 및 업무 화면 컴포넌트 구현, 데이터 바인딩 구조 최적화",
-                "tech": "넥사크로, CSS3, VSCode, Eclipse"
+                "tech": "넥사크로, CSS3, Editplus, Eclipse"
             }
         ]
     },
@@ -287,7 +287,7 @@
                 "period": "2015.02.01~2015.05.16",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 구조 설계",
-                "tech": "HTML5, CSS3, jQuery, javascript, CMS, VSCode, Eclipse"
+                "tech": "HTML5, CSS3, jQuery, javascript, CMS, Editplus, Eclipse"
             }
         ]
     },
@@ -302,7 +302,7 @@
                 "period": "2014.11.18~2014.12.17",
                 "role": "Publishing 30%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "금융결제원",
@@ -312,7 +312,7 @@
                 "period": "2014.10.06~2014.11.05",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse, CMS"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse, CMS"
             },
             {
                 "client": "KTH",
@@ -322,7 +322,7 @@
                 "period": "2014.08.04~2014.10.27",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "Samsung",
@@ -332,7 +332,7 @@
                 "period": "2014.07.14~2014.08.29",
                 "role": "Publishing 30%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "KTH",
@@ -342,7 +342,7 @@
                 "period": "2014.04.07~2014.06.30",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             }
         ]
     },
@@ -358,7 +358,7 @@
                 "period": "2013.11.14~2013.12.31",
                 "role": "Publishing PL",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "major": true,
@@ -369,7 +369,7 @@
                 "period": "2013.09.01~2013.10.31",
                 "role": "Publishing PL",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "나이스신용평가정보",
@@ -379,7 +379,7 @@
                 "period": "2013.04.01~2013.05.31",
                 "role": "Publishing 40%",
                 "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "제일모직 갤럭시",
@@ -389,7 +389,7 @@
                 "period": "2013.03.18~2013.03.31",
                 "role": "Publishing 100%",
                 "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "KBS",
@@ -399,7 +399,7 @@
                 "period": "2013.02.13~2013.03.03",
                 "role": "Publishing 60%",
                 "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             }
         ]
     },
@@ -415,7 +415,7 @@
                 "period": "2012.09.10~2013.02.09",
                 "role": "Publishing PL",
                 "contribution": "WebSquare 기반 요금 시뮬레이터 UI 구현 및 컴포넌트 구조 정리, 사용자 입력 흐름 최적화",
-                "tech": "웹스퀘어, HTML, CSS, VSCode, Eclipse"
+                "tech": "웹스퀘어, HTML, CSS, Editplus, Eclipse"
             }
         ]
     },
@@ -430,7 +430,7 @@
                 "period": "2012.06.18~2012.09.04",
                 "role": "Publishing 100%",
                 "contribution": "우정렬 국가 인터페이스 UI 구현 및 IE6 브라우저 호환성 대응",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Eclipse"
             },
             {
                 "client": "엠원소프트",
@@ -439,7 +439,7 @@
                 "period": "2012.02.20~2012.03.30",
                 "role": "Publishing & Design 100%",
                 "contribution": "디자인부터 퍼블리싱까지 전반 수행",
-                "tech": "HTML, CSS, jQuery, javascript, VSCode, Photoshop, Illustrator"
+                "tech": "HTML, CSS, jQuery, javascript, Editplus, Photoshop, Illustrator"
             }
         ]
     },
