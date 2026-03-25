@@ -27,7 +27,7 @@
                 "period": "2024.01.08~2025.08.31",
                 "role": "Publishing & Design 100%",
                 "contribution": "React 기반 UI 구조 설계 및 SCSS 아키텍처 구축, 공통 컴포넌트 설계로 중복 코드 제거 및 유지보수성 개선",
-                "tech": "React / SCSS / Javascript"
+                "tech": "React, HTML5, SCSS, CSS3, Javascript, jQuery"
             }
         ]
     },
@@ -43,7 +43,7 @@
                 "period": "2021.08.01~2023.10.31",
                 "role": "Publishing & Design 100%",
                 "contribution": "콜 인프라 UI 퍼블리싱 및 KMS/WFMS 화면 구현, 다수 시스템 공통 UI 가이드 적용으로 일관성 확보",
-                "tech": "HTML, jQuery, javascript, SCSS"
+                "tech": "HTML5, SCSS, CSS3, jQuery, javascript, DHtml, ag-grid, VScode, Eclipse, Photoshop, Illustrator"
             }
         ]
     },
@@ -58,7 +58,7 @@
                 "period": "2021.04.01~2021.07.31",
                 "role": "Publishing 100%",
                 "contribution": "KMS 화면 구현, 다수 시스템 공통 UI 가이드 적용으로 일관성 확보",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML5, CSS3, jQuery, javascript, , VScode, Eclipse"
             },
             {
                 "major": true,
@@ -69,7 +69,7 @@
                 "period": "2021.01.29~2021.03.28",
                 "role": "Publishing 100%",
                 "contribution": "WebSquare 기반 요금 시뮬레이터 UI 구현 및 컴포넌트 구조 정리, 사용자 입력 흐름 최적화",
-                "tech": "웹스퀘어, html, css"
+                "tech": "웹스퀘어, HTML5, CSS3, Eclipse"
             }
         ]
     },
@@ -85,7 +85,7 @@
                 "period": "2020.07.08~2020.12.31",
                 "role": "Publishing 100%",
                 "contribution": "Vue 기반 업무 시스템 UI 개발 및 공통 레이아웃 구성, 재사용 가능한 컴포넌트 설계",
-                "tech": "VueJs, html, css"
+                "tech": "VueJs, HTML5, SCSS, CSS3, VSCode"
             },
             {
                 "client": "주식회사 몬스빌",
@@ -94,7 +94,7 @@
                 "period": "2020.04.01~2020.05.31",
                 "role": "Publishing 100%",
                 "contribution": "시스템 UI 개발 및 공통 레이아웃 구성, 재사용 가능한 컴포넌트 설계",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML5,CSS3, jQuery, javascript, VSCode"
             }
         ]
     },
@@ -109,7 +109,7 @@
                 "period": "2019.12.01~2020.02.28",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터랙션 구현, 다양한 디바이스 대응 및 UI 품질 개선",
-                "tech": "HTML, javascript, jQuery, css"
+                "tech": "HTML5, CSS3, javascript, jQuery, VSCode"
             },
             {
                 "major": true,
@@ -120,7 +120,7 @@
                 "period": "2019.10.16~2020.04.28",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 대화형 인터페이스 구현",
-                "tech": "HTML, css, javascript"
+                "tech": "HTML5, CSS3, javascript, Eclipse, VSCode"
             }
         ]
     },
@@ -136,7 +136,7 @@
                 "period": "2019.06.03~2019.09.16",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, javascript, JQuery, css"
+                "tech": "HTML5, CSS3, javascript, jQuery, Eclipse, VSCode"
             }
         ]
     },
@@ -148,11 +148,11 @@
                 "client": "롯데e-커머스",
                 "logo": "logo ellotte",
                 "company": "시스포유아이앤씨",
-                "project": "FO㈜/BO New 엘롯데 서비스 운영",
+                "project": "FO/BO New 엘롯데 서비스 운영",
                 "period": "2018.11.01~2019.04.30",
                 "role": "Publishing PL",
                 "contribution": "UI 퍼블리싱 및 운영 업무 총괄",
-                "tech": "HTML, javascript, JQuery, css, 웹스퀘어"
+                "tech": "웹스퀘어, HTML5, SCSS, CSS3, jQuery, javascript, VSCode, Eclipse"
             }
         ]
     },
@@ -166,7 +166,7 @@
                 "period": "2018.08.01~2018.08.30",
                 "role": "Publishing 100%",
                 "contribution": "업무 시스템 솔루션 구축 UI 퍼블리싱",
-                "tech" : "HTML, javascript, JQuery, css"
+                "tech" : "HTML5, CSS3, javascript, jQuery, VSCode"
             }
         ]
     },
@@ -182,7 +182,7 @@
                 "period": "2017.10.23~2018.10.31",
                 "role": "Publishing PL",
                 "contribution": "WebSquare 기반 UI 퍼블리싱 및 화면 구조 설계",
-                "tech": "웹스퀘어, css"
+                "tech": "웹스퀘어, HTML5, CSS3, VSCode, Eclipse"
             }
         ]
     },
@@ -197,7 +197,7 @@
                 "period": "2017.06.15~2017.09.14",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, javascript, JQuery, css"
+                "tech": "HTML5, CSS3, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "㈜다음엔소프트",
@@ -206,7 +206,7 @@
                 "period": "2017.03.10~2017.04.9",
                 "role": "Publishing 100%",
                 "contribution": "HTML 기반 콘텐츠 개발 및 UI 퍼블리싱",
-                "tech": "HTML, javascript, JQuery, css"
+                "tech": "HTML5, CSS3, javascript, jQuery, VSCode, Eclipse"
             }
         ]
     },
@@ -219,9 +219,9 @@
                 "company": "㈜넥스트티",
                 "project": "한솔교육 사이트 반응형 리뉴얼",
                 "period": "2016.11.10~2017.01.12",
-                "role": "Publishing 100%",
+                "role": "Publishing PL",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, javascript, JQuery, css"
+                "tech": "HTML5, CSS3, javascript, jQuery, VSCode, Eclipse"
             }
         ]
     },
@@ -232,21 +232,21 @@
                 "client": "ktnet",
                 "logo": "logo utradehub",
                 "company": "㈜웹소울랩",
-                "project": "uTreadHub 통합포탈(국문, 영문, 일문, 중문), 요건확인, 전자문서보관소, 글로벌 포털 퍼블리싱",
+                "project": "uTreadHub 통합포탈(국문, 영문, 일문, 중문), 요건확인, 전자문서보관소, 글로벌 포털",
                 "period": "2016.07.01~2016.10.31",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, javascript, JQuery"
+                "tech": "HTML5, CSS3, javascript, JQuery, VSCode, Eclipse"
             },
             {
                 "client": "현대오일뱅크 Xteer, 한솔 두을장학재단, BNK 캐파탈",
                 "logo": "logo hyundaixteer",
                 "company": "㈜아이스큐브",
-                "project": "현대오일뱅크 Xteer 모바일, 웹 / 한솔 두을장학재단 모바일, 웹 / BNK 캐피탈 모바일 리뉴얼 ",
+                "project": "현대오일뱅크 Xteer 모바일, 웹 / 한솔 두을장학재단 모바일, 웹 / BNK 캐피탈 모바일 리뉴얼",
                 "period": "2016.05.25~2016.6.30",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, jQuery, javascript"
+                "tech": "HTML5, CSS3, javascript, JQuery, VSCode, Eclipse"
             },
             {
                 "major": true,
@@ -257,7 +257,7 @@
                 "period": "2016.02.01~2016.04.30",
                 "role": "Publishing PL",
                 "contribution": "PL로서 UI 퍼블리싱 및 인터페이스 개선 총괄",
-                "tech": "HTML, jQuery, javascript"
+                "tech": "HTML5, CSS3, javascript, JQuery, VSCode, Eclipse"
             }
         ]
     },
@@ -273,7 +273,7 @@
                 "period": "2015.05.19~2016.01.31",
                 "role": "Publishing 100%",
                 "contribution": "Nexacro 기반 ERP UI 퍼블리싱 및 업무 화면 컴포넌트 구현, 데이터 바인딩 구조 최적화",
-                "tech": "넥사크로"
+                "tech": "넥사크로, CSS3, VSCode, Eclipse"
             }
         ]
     },
@@ -287,7 +287,7 @@
                 "period": "2015.02.01~2015.05.16",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 구조 설계",
-                "tech": "HTML, jQuery, javascript, css, CMS"
+                "tech": "HTML5, CSS3, jQuery, javascript, CMS, VSCode, Eclipse"
             }
         ]
     },
@@ -302,7 +302,7 @@
                 "period": "2014.11.18~2014.12.17",
                 "role": "Publishing 30%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "금융결제원",
@@ -312,7 +312,7 @@
                 "period": "2014.10.06~2014.11.05",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, jQuery, javascript, css, CMS"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse, CMS"
             },
             {
                 "client": "KTH",
@@ -322,7 +322,7 @@
                 "period": "2014.08.04~2014.10.27",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "Samsung",
@@ -332,7 +332,7 @@
                 "period": "2014.07.14~2014.08.29",
                 "role": "Publishing 30%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "KTH",
@@ -342,7 +342,7 @@
                 "period": "2014.04.07~2014.06.30",
                 "role": "Publishing 100%",
                 "contribution": "UI 퍼블리싱 및 인터페이스 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             }
         ]
     },
@@ -356,20 +356,20 @@
                 "company": "아이디티정보기술㈜ FEDLAB / 인픽스",
                 "project": "교보문고 SAM 모바일 고도화 작업",
                 "period": "2013.11.14~2013.12.31",
-                "role": "Publishing 100%",
-                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "role": "Publishing PL",
+                "contribution": "UI 퍼블리싱 및 인터페이스 개선",
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "major": true,
                 "client": "LGU+",
                 "logo": "logo uplus",
                 "company": "아이디티정보기술㈜ FEDLAB / 미디어로그",
-                "project": "모바일 고도화 작업 PL",
+                "project": "모바일 고도화 작업",
                 "period": "2013.09.01~2013.10.31",
-                "role": "Publishing 100%",
-                "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "role": "Publishing PL",
+                "contribution": "UI 퍼블리싱 및 인터페이스 개선",
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "나이스신용평가정보",
@@ -377,9 +377,9 @@
                 "company": "Masstige",
                 "project": "나이스 신용평가정보 웹표준화 및 접근성 작업",
                 "period": "2013.04.01~2013.05.31",
-                "role": "Publishing 100%",
+                "role": "Publishing 40%",
                 "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "제일모직 갤럭시",
@@ -389,7 +389,7 @@
                 "period": "2013.03.18~2013.03.31",
                 "role": "Publishing 100%",
                 "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "KBS",
@@ -399,7 +399,7 @@
                 "period": "2013.02.13~2013.03.03",
                 "role": "Publishing 60%",
                 "contribution": "웹 표준 및 접근성 준수 퍼블리싱, 크로스 브라우징 대응 및 UI 구조 개선",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             }
         ]
     },
@@ -410,12 +410,12 @@
                 "major": true,
                 "client": "한국예탁결제원",
                 "logo": "logo ksd",
-                "company": "낯선웹 주시회사 ",
+                "company": "낯선웹 주시회사",
                 "project": "한국예탁결제원 증권포털 웹, 모바일 리뉴얼",
                 "period": "2012.09.10~2013.02.09",
                 "role": "Publishing PL",
                 "contribution": "WebSquare 기반 요금 시뮬레이터 UI 구현 및 컴포넌트 구조 정리, 사용자 입력 흐름 최적화",
-                "tech": "웹스퀘어"
+                "tech": "웹스퀘어, HTML, CSS, VSCode, Eclipse"
             }
         ]
     },
@@ -428,9 +428,9 @@
                 "company": "모티인터내셔널",
                 "project": "LG Global Site 리뉴얼",
                 "period": "2012.06.18~2012.09.04",
-                "role": "Publishing 60%",
+                "role": "Publishing 100%",
                 "contribution": "우정렬 국가 인터페이스 UI 구현 및 IE6 브라우저 호환성 대응",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Eclipse"
             },
             {
                 "client": "엠원소프트",
@@ -439,7 +439,7 @@
                 "period": "2012.02.20~2012.03.30",
                 "role": "Publishing & Design 100%",
                 "contribution": "디자인부터 퍼블리싱까지 전반 수행",
-                "tech": "HTML, jQuery, javascript, css"
+                "tech": "HTML, CSS, jQuery, javascript, VSCode, Photoshop, Illustrator"
             }
         ]
     },
@@ -454,7 +454,7 @@
                 "period": "2005.11.~2006.06.",
                 "role": "Publishing 30%, Editorial Design 40%",
                 "contribution": "웹사이트 운영 및 웹 · 편집 디자인 전반 수행",
-                "tech": "Photoshop, Flash, illustrator, indesign, HTML, javascript, css"
+                "tech": "Photoshop, Flash, illustrator, indesign, HTML, css"
             }
         ]
     }
