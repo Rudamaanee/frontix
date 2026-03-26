@@ -328,6 +328,46 @@ contact
     }
 }
 
+.top-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    background: #fff;
+    color: #111;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    border: 1px solid #eee;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.25s ease;
+
+    z-index: 999;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+} //top-btn
 
 /* =========================
 

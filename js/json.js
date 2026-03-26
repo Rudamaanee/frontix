@@ -7,7 +7,7 @@ fetch('./datas/timeline.json')
 })
 
 function renderProjects(data){
-    const list = document.getElementById('projects')
+    const list = document.getElementById('project')
     data.forEach(year => {
         year.items
             .filter(item => item.major === true)
