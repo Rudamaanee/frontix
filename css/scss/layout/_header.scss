@@ -50,16 +50,20 @@ Header
         padding: 0 20px;
     }
     .logo {
-        width: 175px;
-        height: 50px;
-        font-size: 0;
-        font-weight: 600;
-        letter-spacing: -0.5px;
-        text-indent: -999em;
-        background: url('../imgs/frontix-H.png') no-repeat 50% 0;
-        background-size: auto 100%;
+        a {
+            display: block;
+            width: 175px;
+            height: 50px;
+            font-size: 0;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            text-indent: -999em;
+            background: url('../imgs/frontix-H.png') no-repeat 50% 0;
+            background-size: auto 100%;
+        }
     }
     .nav {
+        display: flex;
         ul {
             display: flex;
             gap: 28px;
@@ -89,6 +93,28 @@ Header
                 height: 2px;
                 background: #000;
                 transition: 0.3s;
+            }
+        }
+        button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 16px;
+            height: 16px;
+            margin: 2px 0 0 16px;
+            span {
+                display: block;
+                width: 4px;
+                height: 4px;
+                border-radius: 10px;
+                background-color: #666;
+                transition: 0.3s;
+            }
+            &:hover {
+                span {
+                    background-color: #000;
+                }
             }
         }
     }

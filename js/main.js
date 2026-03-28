@@ -164,6 +164,48 @@ window.addEventListener('scroll', () => {
     })
 })
 
+// ========================
+// ✔ 관리자 로그인
+// ========================
+function adminLogin() {
+    const pw = prompt('관리자 비밀번호 입력')
+
+    if (pw === 'frontix777') {
+        window.location.href = './pages/admin.html'
+        } else {
+            alert('접근 권한 없음')
+    }
+}
+
+// ========================
+// ✔ 이벤트 위임 (모든 클릭 처리)
+// ========================
+document.addEventListener('click', (e) => {
+
+  // 관리자 버튼
+    if (e.target.closest('#adminLink')) {
+        e.preventDefault()
+        adminLogin()
+        return
+    }
+
+    // 메뉴 이동
+    const navLink = e.target.closest('.nav a')
+    if (navLink && navLink.getAttribute('href').startsWith('#')) {
+        e.preventDefault()
+
+        const target = document.querySelector(navLink.getAttribute('href'))
+
+        if (target) {
+        window.scrollTo({
+            top: target.offsetTop - 70,
+            behavior: 'smooth'
+        })
+        }
+    }
+
+})
+
 /* =========================
 
 ========================= */

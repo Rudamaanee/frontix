@@ -19,19 +19,7 @@
 
 <body>
 
-<header class="header">
-    <div class="container">
-        <h1 class="logo">Frontix</h1>
-        <nav class="nav">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<div data-include="./include/header.html"></div>
 
 <section id="about" class="hero">
     <div class="container">
@@ -44,52 +32,6 @@
         <div class="stack">HTML5 · SCSS · Javascript · React · Vue.js · WebSquare · Nexacro</div>
     </div>
 </section>
-
-<!-- <section class="skills">
-    <div class="container">
-        <h3><span>Skills</span></h3>
-        <div class="skills-grid grid">
-            <dl>
-                <dt>Markup</dt>
-                <dd>
-                    <div>HTML5 시맨틱</div>
-                </dd>
-            </dl>
-            <dl>
-                <dt>Style</dt>
-                <dd>
-                    <div>SCSS 구조화</div>
-                </dd>
-            </dl>
-            <dl>
-                <dt>Script</dt>
-                <dd>
-                    <div>JS / jQuery</div>
-                </dd>
-            </dl>
-            <dl>
-                <dt>Accessibility</dt>
-                <dd>
-                    <div>웹 접근성</div>
-                </dd>
-            </dl>
-            <dl>
-                <dt>Framework</dt>
-                <dd>
-                    <div class="logo react">React</div>
-                    <div class="logo vue">Vue</div>
-                </dd>
-            </dl>
-            <dl>
-                <dt>Tool</dt>
-                <dd>
-                    <li>WebSquare</li>
-                    <li>Nexacro</li>
-                </dd>
-            </dl>
-        </div>
-    </div>
-</section> -->
 
 <section id="career" class="career">
     <div class="container">
@@ -134,12 +76,7 @@
     </div>
 </section>
 
-<footer class="footer">
-    <div class="container">
-        <p>© 2026 Frontix Portfolio</p>
-    </div>
-
-</footer>
+<div data-include="./include/footer.html"></div>
 
 <button id="topBtn" class="top-btn">
     <svg width="20" height="20" viewBox="0 0 24 24">
@@ -173,6 +110,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+<script src="./js/include.js"></script>
 <script src="./js/json.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/common.js"></script>
