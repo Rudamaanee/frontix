@@ -1,42 +1,109 @@
 /* =========================
-    콘솔창 차단 스크립트
-    개발자도구 단축키 차단
+Header 
 ========================= */
-document.addEventListener('keydown', function(event) {
-    if (
-        event.keyCode === 123 || // F12
-        (event.ctrlKey && event.shiftKey && event.keyCode === 73) || // Ctrl+Shift+I
-        (event.ctrlKey && event.shiftKey && event.keyCode === 74) || // Ctrl+Shift+J
-        (event.ctrlKey && event.keyCode === 85) // Ctrl+U
-    ) {
-        event.preventDefault();
-        //alert("개발자 도구 사용이 금지되어 있습니다.");
-    }
-});
+const headerHeight = 70
+const links = document.querySelectorAll('.nav a')
+const sections = document.querySelectorAll('section')
 
-// 우클릭 차단
-document.addEventListener('contextmenu', function(e){
-    e.preventDefault();
-    //alert("우클릭이 금지되어 있습니다.");
-});
-// 개발자도구 감지
-const devToolsDetector = () => {
+// ✔ 클릭 이동
+links.forEach(link => {
+    link.addEventListener('click', e => {
+        e.preventDefault()
 
-    const callback = () => {
-        //alert("개발자 도구 사용이 감지되었습니다.");
-    };
+        const target = document.querySelector(link.getAttribute('href'))
 
-    const checkStatus = () => {
+        window.scrollTo({
+            top: target.offsetTop - headerHeight,
+            behavior: 'smooth'
+        })
+    })
+})
 
-        const startTime = performance.now();
-        debugger;
-        const endTime = performance.now();
+// ✔ active 처리
+window.addEventListener('scroll', () => {
+    let current = ''
 
-        if (endTime - startTime > 100) {
-            callback();
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - headerHeight - 50
+
+        if (window.scrollY >= sectionTop) {
+        current = section.getAttribute('id')
         }
-    };
-    setInterval(checkStatus, 1000);
-};
-devToolsDetector();
+    })
 
+    links.forEach(link => {
+        link.classList.remove('active')
+
+        if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active')
+        }
+    })
+})
+
+/* =========================
+스크롤 시 버튼 노출
+========================= */
+const topBtn = document.getElementById('topBtn')
+
+// 스크롤 시 버튼 노출
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        topBtn.classList.add('show')
+    } else {
+        topBtn.classList.remove('show')
+    }
+    })
+
+    // 클릭 시 최상단 이동
+    topBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})
+
+// ========================
+// ✔ 관리자 로그인
+// ========================
+function adminLogin() {
+    const pw = prompt('관리자 비밀번호 입력')
+
+    if (pw === 'frontix777') {
+        window.location.href = './pages/admin.html'
+        } else {
+            alert('접근 권한 없음')
+    }
+}
+
+// ========================
+// ✔ 이벤트 위임 (모든 클릭 처리)
+// ========================
+document.addEventListener('click', (e) => {
+
+  // 관리자 버튼
+    if (e.target.closest('#adminLink')) {
+        e.preventDefault()
+        adminLogin()
+        return
+    }
+
+    // 메뉴 이동
+    const navLink = e.target.closest('.nav a')
+    if (navLink && navLink.getAttribute('href').startsWith('#')) {
+        e.preventDefault()
+
+        const target = document.querySelector(navLink.getAttribute('href'))
+
+        if (target) {
+        window.scrollTo({
+            top: target.offsetTop - 70,
+            behavior: 'smooth'
+        })
+        }
+    }
+
+})
+
+/* =========================
+
+========================= */
